@@ -1,0 +1,30 @@
+include getSchedule, getPosition from "socket://localhost:8000" with "sodep"
+include hasNextStop, calculateDelay from "socket://localhost:8001" with "http"
+include insertDelay from "socket://localhost:8002"
+
+preamble {
+ starter: Admin 
+}
+
+aioc {
+ line@Admin = getInput( "Insert line to track" );
+ {
+  setLine: Admin( line ) -> DatabaseConnector( line )
+  |
+  setLine: Admin( line ) -> BusAgency( line )
+ };
+ shd@BusAgency = getSchedule( line );
+ passSchedule: BusAgency( shd ) -> Tracker( shd );
+ hasNext@Tracker = hasNextStop( shd );
+ while ( hasNext )@Tracker {
+  gps@BusAgency = getPosition( line );
+  passPosition: BusAgency( gps ) -> Tracker( pos );
+  delay@Tracker = calculateDelay( shd, pos );
+  storeDelay: Tracker( delay ) -> DatabaseConnector( delay );
+  {
+    _@DatabaseConnector = insertDelay( line, delay )
+    |
+    hasNext@Tracker = hasNextStop( shd )
+  }
+ }
+}
