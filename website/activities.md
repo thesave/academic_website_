@@ -11,6 +11,7 @@ permalink: /activities/
 
 <div markdown="1">
 
+-  <img style="height:24px;" src="/imgs/ascd_project.png"> *Co-Principal Investigator*: [Assessment on the Status of CyberSecurity in Denmark (ASCD)](https://ascd.dk/) founded by the Danish Centre for CyberSecurity
 -  <img style="height:24px;" src="/imgs/amp2020.svg"> *Program co-Chair*: [Agility with Microservices Programming 2020](https://amp.fe.up.pt/2020/) workshop co-located with [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2020/)
 
 - *Referee*: 
