@@ -34,7 +34,7 @@ within the <a href="https://ec.europa.eu/research/mariecurieactions/actions/indi
 
 -  <img style="height:24px;" src="/imgs/cybersecurity_days.png"> *Local Organiser*: [CyberSecurity Days 2019](https://cyberdays2019.sdu.dk/) 
 
--  <img style="height:24px;" src="/imgs/microservices_logo.png"> *Program co-Chair*: [International Conference on Microservices (Microservices) 2019](http://conf-micro.services/2019) 
+-  <img style="height:30px;" src="/imgs/microservices_conf.svg"> *Program co-Chair*: [International Conference on Microservices (Microservices) 2019](http://conf-micro.services/2019) 
 
 - <img style="height:30px;" src="/imgs/midos_logo.png"> *Publicity Chair* and *PC member* of the [MiDOS track](https://midos2019.sdu.dk/) at ACM SAC
 
