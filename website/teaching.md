@@ -20,6 +20,10 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 
 ### Active Courses
 
+---
+
+### Past Courses
+
 #### Advanced Topics in Concurrent Systems
 
 <div class="text-muted">Master Course - 10 ETCS</div>
@@ -29,10 +33,6 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 See the [course description](http://odinlister.sdu.dk/fagbesk/internkode/DM869/en) on the SDU website.
 
 Teaching material, exercises, and assignments are available at the [repository](https://github.com/mperessotti/acs2019) dedicated to the course.
-
----
-
-### Past Courses
 
 #### Operating Systems Laboratory
 
