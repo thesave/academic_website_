@@ -13,10 +13,13 @@ permalink: /activities/
 
 -  <img style="height:24px;" src="/imgs/ascd_project.png"> *Co-Principal Investigator*: [Assessment on the Status of CyberSecurity in Denmark (ASCD)](https://ascd.dk/) funded by the [Danish Centre for CyberSecurity](https://fe-ddis.dk/cfcs/Pages/cfcs.aspx)
 -  <img style="height:24px;" src="/imgs/amp2020.svg"> *Program co-Chair*: [Agility with Microservices Programming 2020](https://amp.fe.up.pt/2020/) workshop co-located with [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2020/)
+-  <img style="height:30px;" src="/imgs/microservices_conf.svg"> *PC Member*: [International Conference on Microservices 2020](https://conf-micro.services/2020/)
+-  <img style="height:24px;" src="/imgs/bopl_logo.png"> *Financial Chair/Fundraiser*: [BOlogna Federated Conference on Programming Languages 2020](https://bopl.cs.unibo.it/)
 
 - *Referee*: 
   - [Elsevier, Journal of Parallel and Distributed Computing (JPDC)](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing) 
   - [IEEE, Transactions on Software Engineering (TSE)](https://www.computer.org/csdl/journal/ts)
+  - [International Conference on Concurrency Theory (CONCUR)](https://concur2020.forsyte.at/)
 
 </div>
 </div>
