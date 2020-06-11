@@ -5,8 +5,8 @@ permalink: /publications/phdthesis/
 ---
 
 - Presented by: Saverio Giallorenzo
-- Advisor: Maurizio Gabbrielli
-- Co-advisor: Fabrizio Montesi
+- Supervisor: Maurizio Gabbrielli
+- Co-Supervisor: Fabrizio Montesi
 
 **Short Abstract**
 
