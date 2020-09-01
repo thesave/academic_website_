@@ -10,6 +10,13 @@ permalink: /publications/
   <div>
     
   <div>
+  <a class="paper" href="icsoc2020"></a>
+  Giuseppe de Palma, Saverio Giallorenzo, Jacopo Mauro, Gianluigi Zavattaro: 
+  <span>Allocation Priority Policies for Serverless Function-execution Scheduling Optimisation</span>. 
+  International Conference on Service-Oriented Computing (ICSOC). Springer, Cham, 2020.
+  </div>
+    
+  <div>
   <a class="paper" href="mse2020"></a>
   <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/books/sp/20/BravettiGMTZ20"></a>
   Mario Bravetti, Saverio Giallorenzo, Jacopo Mauro, Iacopo Talevi, Gianluigi Zavattaro: 

@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 Projects list: 
-[AIOCJ](#aiocj) | [Choral](#choral) | [Jolie](#jolie) | [JIoT](#jiot) | [Tquery](#tquery) | [SMAll](#small)
+[AIOCJ](#aiocj) | [APP](#app) | [Choral](#choral) | [Jolie](#jolie) | [JIoT](#jiot) | [Tquery](#tquery) | [SMAll](#small)
 
 Utilities:
 
@@ -38,6 +38,33 @@ team</a>, working on the theory behind the language and its development.
 </div>
 
 
+<h1 id="app">APP</h1>
+
+<div class="project">
+
+<p>
+
+<img class="pull-right" src="../imgs/app_logo.png" style="width:150px;
+margin-right:15px; margin:20px;" alt=""> 
+
+Serverless computing is a Cloud development paradigm where developers write and
+compose stateless functions, abstracting from their deployment and scaling. <a
+href="https://github.com/giusdp/openwhisk">APP</a> is a declarative language of
+Allocation Priority Policies to specify policies that inform the scheduling of
+Serverless function execution to optimise their performance against some
+user-defined goals. APP is currently implemented as a prototype extension of the
+Serverless <a href="https://openwhisk.apache.org/">Apache OpenWhisk</a>
+platform.
+
+</p>
+
+
+<p style="color:grey;">My contribution</p>
+
+I am one of the main contributors in the <a href="/publications/icsoc2020/">design of the APP language</a>.
+
+</div>
+
 <h1 id="aiocj">AIOCJ</h1>
 
 <div class="project">
@@ -59,7 +86,7 @@ Since AIOCJ choreographies are projected to Jolie programs they can also make us
 
 <p style="color:grey;">My contribution</p>
 
-I am one of the main researchers on the <a href="http://cs.unibo.it/~sgiallor/publications/lmcs2017/">formal model</a> behind the AIOCJ language and its <a href="https://github.com/thesave/aiocj">main developer</a>.
+I am one of the main researchers on the <a href="/publications/lmcs2017/">formal model</a> behind the AIOCJ language and its <a href="https://github.com/thesave/aiocj">main developer</a>.
 
 </div>
 
@@ -78,7 +105,7 @@ The development of the Jolie language is based on a positive loop between formal
 
 Although young, the language is continuously maintained and enhanced, with the contribution of researchers from many universities (<a href="http://www.unibo.it/">UniBO</a>, <a href="http://www.sdu.dk/en/">SDU</a>, <a href="https://www.itu.dk/">ITU</a>, <a href="http://www.dtu.dk/">DTU</a>, <a href="https://university.innopolis.ru/en/">Innopolis</a>).
 
-Finally, Jolie programs strive for minimality, the same minimality predicated by the <a href="https://martinfowler.com/articles/microservices.html">microservice</a> architectural style (see [<a href="http://cs.unibo.it/~sgiallor/publications/msytt/">1</a>] for a review on microservices).
+Finally, Jolie programs strive for minimality, the same minimality predicated by the <a href="https://martinfowler.com/articles/microservices.html">microservice</a> architectural style (see [<a href="/publications/msytt/">1</a>] for a review on microservices).
 
 </p>
 
