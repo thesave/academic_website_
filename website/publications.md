@@ -217,6 +217,15 @@ permalink: /publications/
 <div style="height:1em;"></div>
 
 <div class="pub-year">
+<span>2020</span>
+
+  <div>
+    <a href="/publications/seminars/MC2020.pdf" class="paper"></a> Presentation of the APP language at the <a href="https://conf-micro.services/2020/">International Conference on Microservices 2020</a>.
+  </div>
+
+</div>
+
+<div class="pub-year">
 <span>2018</span>
 
   <div>
