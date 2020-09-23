@@ -34,6 +34,28 @@
   border-left-color: #f0ad4e;
   margin-bottom: 2em;
 }
+
+.course {
+  padding: 5px;
+  margin: 10px 0;
+  border-left: 1px solid;
+  border-left-width: 5px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border-left-color: #662d91;
+  margin-bottom: 2em;
+}
+
+.course-past {
+  padding: 5px;
+  margin: 10px 0;
+  border-left: 1px solid;
+  border-left-width: 5px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border-left-color: #662d918a;
+  margin-bottom: 2em;
+}
     
 .act-year div, .pub-year div {
   color: grey;
