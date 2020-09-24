@@ -98,16 +98,14 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 <div class="text-muted">Master Course - 6 ETCS</div>
 <br>
 
-{% comment %}
 **Slides**
 
 <table class="table table-striped">
 	<tr>
 		<td> <strong>Introduction to Network Analysis</strong> </td>
-		<td> <a href="slides/000_Interprocess Communication.pdf">Slides</a> </td>
+		<td> <a href="na/slides/L00.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
 </table>
-{% endcomment %}
 
 **Resources:**
 [UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
@@ -170,16 +168,16 @@ Teaching material, exercises, and assignments are available at the [repository](
 <table class="table table-striped">
 	<tr>
 		<td> <strong>Introduction Interprocess Communication</strong> </td>
-		<td> <a href="labos/slides/000_Interprocess Communication.pdf">Slides</a> </td>
+		<td> <a href="labos/slides/000_Interprocess Communication.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
 	<tr>
 		<td> <strong>Introduction to Jolie</strong> </td>
-		<td> <a href="labos/slides/001_Introduction.pdf">Slides</a> </td>
+		<td> <a href="labos/slides/001_Introduction.pdf"><span class="paper"></span> Slides</a> </td>
 		<td> <a href="labos/examples/hello_world.ol">Example</a> </td>
 	</tr>
 	<tr>
 		<td> <strong>Basics - First Service and Basic Deployment</strong></td>
-		<td> <a href="labos/slides/002_Basics - First Service and Basic Deployment.pdf">Slides</a></td>
+		<td> <a href="labos/slides/002_Basics - First Service and Basic Deployment.pdf"><span class="paper"></span> Slides</a></td>
 		<td> <a href="labos/examples/002_examples.zip">Examples</a></td>
 	</tr>
 	<tr>
@@ -188,19 +186,19 @@ Teaching material, exercises, and assignments are available at the [repository](
 			<div><strong>Basic Behaviour - Composition and Workflow</strong></div>
 		</td>
 		<td>
-			<div><a href="labos/slides/003_Basic Behaviour - Types and Data Manipulation.pdf">Slides</a></div>
-			<div><a href="labos/slides/004_Basic Behaviour - Composition and Workflow.pdf">Slides</a></div>
+			<div><a href="labos/slides/003_Basic Behaviour - Types and Data Manipulation.pdf"><span class="paper"></span> Slides</a></div>
+			<div><a href="labos/slides/004_Basic Behaviour - Composition and Workflow.pdf"><span class="paper"></span> Slides</a></div>
 		</td>
 		<td><a href="labos/examples/003_examples.zip">Examples</a></td>
 	</tr>
 	<tr>
 		<td><strong>Advanced Behaviour - Faults and Dynamic Binding</strong></td>
-		<td><a href="labos/slides/005_Advanced Behaviour - Faults and Dynamic Binding.pdf">Slides</a></td>
+		<td><a href="labos/slides/005_Advanced Behaviour - Faults and Dynamic Binding.pdf"><span class="paper"></span> Slides</a></td>
 		<td><a href="labos/examples/004_examples.zip">Examples</a></td>
 	</tr>
 	<tr>
 		<td><strong>Advanced Deployment - Architectural Composition</strong></td>
-		<td><a href="labos/slides/006_Advanced Deployment - Architectural Composition.pdf">Slides</a></td>
+		<td><a href="labos/slides/006_Advanced Deployment - Architectural Composition.pdf"><span class="paper"></span> Slides</a></td>
 		<td><a href="labos/examples/005_examples.zip">Examples</a></td>
 	</tr>
 </table>
@@ -306,19 +304,19 @@ Dipartimento di Informatica - Scienza e Ingegneria, Mura Anteo Zamboni, 7 -
 <table class="table table-striped">
 	<tr>
 		<td> <strong>Introduction Database Systems</strong>*</td>
-		<td> <a href="ics_geo/slides/05_db.pdf">Slides</a> </td>
+		<td> <a href="ics_geo/slides/05_db.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
 	<tr>
 		<td> <strong>Exercises on Database Systems</strong>*</td>
-		<td> <a href="ics_geo/slides/06_db_ex.pdf">Slides</a> </td>
+		<td> <a href="ics_geo/slides/06_db_ex.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
 	<tr>
 		<td> <strong>Analysis of data in tabular formats (spreadsheets)</strong>*</td>
-		<td> <a href="ics_geo/slides/07_calc.pdf">Slides</a></td>
+		<td> <a href="ics_geo/slides/07_calc.pdf"><span class="paper"></span> Slides</a></td>
 	</tr>
 	<tr>
 		<td><strong>Operating Systems, Virtualisation Technologies, and Cloud Computing</strong></td>
-		<td><a href="ics_geo/slides/08_cc.pdf">Slides</a></td>
+		<td><a href="ics_geo/slides/08_cc.pdf"><span class="paper"></span> Slides</a></td>
 	</tr>
 </table>
 *Adapted from material by Stefano Ferretti.
