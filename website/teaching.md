@@ -105,7 +105,44 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 		<td> <strong>Introduction to Network Analysis</strong> </td>
 		<td> <a href="na/slides/L00.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
+	<tr>
+		<td> <strong>Some Logistics (Reading Groups)</strong> </td>
+		<td> <a href="na/slides/L00.1.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
+	<tr>
+		<td> <strong>Research Design (also, How to  read a research paper)</strong> </td>
+		<td> <a href="na/slides/L01.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
 </table>
+
+**Lectures Schedule**
+<table class="table">
+<tr>
+	<th>Week</th>
+	<th>Thursday</th>
+	<th>Friday</th>
+</tr>
+<tbody>
+<tr>
+	<td>39</td>
+	<td>Introduction to Network Analysis</td>
+	<td>Introduction to Network Analysis <br> Some Logistics <br> Research Design</td>
+</tr>
+</tbody>
+</table>
+
+**Bibliography:**
+
+Main references:
+- Lecture Notes, Research Papers, and datasets provided by the teacher.
+- Newman, M. (2018). Networks. Oxford university press.
+- Borgatti, S. P., Everett, M. G., & Johnson, J. C. (2018). Analyzing social networks. Sage.
+
+Additional references:
+- Wasserman, S., & Faust, K. (1994). Social network analysis: Methods and applications (Vol. 8). Cambridge university press.
+- Koch, R., & Lockwood, G. (2011). Superconnect: Harnessing the power of networks and the strength of weak links. Random House Digital, Inc..
+- Barabasi, A. L. (2014). Linked-how Everything is Connected to Everything Else and what it Means F (pp. 1-1). Perseus Books Group.
+- Watts, D. J. (2004). Six degrees: The science of a connected age. WW Norton & Company.
 
 **Resources:**
 [UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
