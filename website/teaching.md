@@ -113,6 +113,10 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 		<td> <strong>Research Design (also, How to  read a research paper)</strong> </td>
 		<td> <a href="na/slides/L01.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
+	<tr>
+		<td> <strong>Paper Presentation: An Information Flow Model for Conflict and Fission in Small Groups</strong> </td>
+		<td> <a href="na/slides/L01.1.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
 </table>
 
 **Lectures Schedule**
@@ -145,7 +149,8 @@ Additional references:
 - Watts, D. J. (2004). Six degrees: The science of a connected age. WW Norton & Company.
 
 **Resources:**
-[UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
+[References](na/references/references.zip)
+• [UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
 • [UCINET Installation Guide](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi)
 • [Hanneman &amp; Riddle's Tutorial](http://faculty.ucr.edu/~hanneman/nettext/)
 
