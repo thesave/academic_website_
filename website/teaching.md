@@ -149,7 +149,6 @@ Additional references:
 - Watts, D. J. (2004). Six degrees: The science of a connected age. WW Norton & Company.
 
 **Resources:**
-[References](na/references/references.zip)
 • [UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
 • [UCINET Installation Guide](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi)
 • [Hanneman &amp; Riddle's Tutorial](http://faculty.ucr.edu/~hanneman/nettext/)
