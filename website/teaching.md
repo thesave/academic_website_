@@ -117,6 +117,10 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 		<td> <strong>Paper Presentation: An Information Flow Model for Conflict and Fission in Small Groups</strong> </td>
 		<td> <a href="na/slides/L01.1.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
+	<tr>
+		<td> <strong>The Mathematics of Networks</strong> </td>
+		<td> <a href="na/slides/L02.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
 </table>
 
 **Lectures Schedule**
@@ -131,6 +135,11 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 	<td>39</td>
 	<td>Introduction to Network Analysis</td>
 	<td>Introduction to Network Analysis <br> Some Logistics <br> Research Design</td>
+</tr>
+<tr>
+	<td>40</td>
+	<td>Research Design <br> Paper Presentation</td>
+	<td>Paper Presentation<br> The Mathematics of Networks</td>
 </tr>
 </tbody>
 </table>
@@ -149,9 +158,12 @@ Additional references:
 - Watts, D. J. (2004). Six degrees: The science of a connected age. WW Norton & Company.
 
 **Resources:**
-[UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
+[References](na/references/references.zip)
+• [UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
 • [UCINET Installation Guide](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi)
+• [UCINET Guide](https://pages.uoregon.edu/vburris/hc431/Ucinet_Guide.pdf)
 • [Hanneman &amp; Riddle's Tutorial](http://faculty.ucr.edu/~hanneman/nettext/)
+• [UCINET Datasets](https://sites.google.com/site/ucinetsoftware/datasets)
 
 **Reading Group Paper** [<span class="paper" style="margin-left:1em;"></span> An Information Flow Model for Conflict and Fission in Small Groups](na/papers/An Information Flow Model for Conflict and Fission in Small Groups.pdf)
 
@@ -290,7 +302,7 @@ Dipartimento di Informatica - Scienza e Ingegneria, Mura Anteo Zamboni, 7 -
 			<a href="labos/project/old/1415/groups.html">Groups status</a>
 			---
 			<em>Examples</em>:
-				<a href="labos/project/old/1415/file_tranfer.zip">File Tranfer</a>,
+				<a href="labos/project/old/1415/file_tranfer.zip">File Transfer</a>,
 				<a href="labos/project/old/1415/console_input.ol">Console Inputs</a>
 		</td>
 	</tr>
