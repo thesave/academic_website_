@@ -172,10 +172,12 @@ Additional references:
 </span>
 
 <div class="panel collapse" style="box-shadow: 0 0 black;" id="na_papers">
+<div class="row">
 {% comment %}We assemble the topics and sort them{% endcomment %}
 {% assign topics = page.papers | map: "field" %}
 {% assign topics = topics | sort %}
 {% for topic in topics %}
+<div class="col-xs-6">
 <strong>{{topic}}</strong>
 <ul class="small" style="list-style: none; margin-left:5px;">
 {% assign papers = page.papers | where: "field", topic | first %}
@@ -183,9 +185,11 @@ Additional references:
 <li><a href="na/papers/{{ title | url_encode }}.pdf"><span class="paper"></span> {{title | truncatewords: 8, " ..."}}</a></li>
 {% endfor %}
 </ul>
+</div>
+{% cycle '', '</div><div class="row">' %}
 {% endfor %}
 </div>
-
+</div>
 
 </div>
 
