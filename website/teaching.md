@@ -38,9 +38,10 @@ papers:
       - "Predicting Defects using Network Analysis on Dependency Graphs"
       - "Social structure of Facebook networks"
   - 
-    field: Tourism/Urbanistics
+    field: Economics
     titles: 
       - "Tourist Tour Planning Supported by Social Network Analysis"
+      - "Making Invisible Work Visible - Using Social Network Analysis to Support Strategic Collaboration"
   - 
     field: Forensics
     titles: 
@@ -71,7 +72,6 @@ papers:
     titles: 
       - "On Social Networks in Plays and Novels"
       - "Structure-based Clustering of Novels"
-
 
 ---
 
