@@ -183,7 +183,8 @@ Additional references:
 <strong>{{topic}}</strong>
 <ul class="small" style="list-style: none; margin-left:5px;">
 {% assign papers = page.papers | where: "field", topic | first %}
-{% for title in papers.titles | sort %}
+{% assign titles = papers.titles | sort %}
+{% for title in titles %}
 <li><a href="na/papers/{{ title | url_encode }}.pdf"><span class="paper"></span> {{title | truncatewords: 8, " ..."}}</a></li>
 {% endfor %}
 </ul>
