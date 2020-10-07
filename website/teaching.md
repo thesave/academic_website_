@@ -13,6 +13,7 @@ papers:
       - "Robust action and the rise of the Medici, 1400-1434"
       - "The Jesus Movement and Social Network Analysis"
       - "Using Social Network Analysis to Reveal Unseen Relationships in Medieval Scotland"
+      - "Compositional Equivalence with actor attributes - Positional analysis of the Florentine Families network"
   - 
     field: Biology
     titles: 
@@ -34,6 +35,7 @@ papers:
     titles: 
       - "Analysis of Linux kernel as a complex network"
       - "Detection of Topological Patterns in Complex Networks - Correlation Profile of the Internet"
+      - "Predicting Defects using Network Analysis on Dependency Graphs"
       - "Social structure of Facebook networks"
   - 
     field: Tourism/Urbanistics
@@ -181,7 +183,7 @@ Additional references:
 <strong>{{topic}}</strong>
 <ul class="small" style="list-style: none; margin-left:5px;">
 {% assign papers = page.papers | where: "field", topic | first %}
-{% for title in papers.titles %}
+{% for title in papers.titles | sort %}
 <li><a href="na/papers/{{ title | url_encode }}.pdf"><span class="paper"></span> {{title | truncatewords: 8, " ..."}}</a></li>
 {% endfor %}
 </ul>
