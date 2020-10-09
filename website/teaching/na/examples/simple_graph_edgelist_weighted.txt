@@ -1,0 +1,17 @@
+DL
+title = "simple network, edge list format"
+
+N = 4
+
+format = edgelist1 // this is the list format for 1-mode graphs (the adjacency matrix)
+labels embedded
+
+// this is the edge list, which can also be weighted
+// the format is: NODE NODE OPT_WEIGHT
+data:
+A B 1
+A D 5
+B A 1
+B C 2
+C B 2
+D A 5

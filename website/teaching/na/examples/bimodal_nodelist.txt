@@ -1,0 +1,28 @@
+DL
+title = "bimodal network, list format"
+
+NC = 4
+NR = 5
+
+format = nodelist2 // this is the list format for 2-mode graphs (the incidence matrix)
+
+row labels:
+"Robert Downey Jr."
+"Jude Law"
+"Brie Larson"
+"Samuel L. Jackson"
+"Tom Hiddleston"
+
+column labels:
+"Iron Man"
+"Sherlock Holmes"
+"Ms. Marvel"
+"Kong"
+
+// this is the node list
+data:
+1 1 2
+2 2 3
+3 3 4
+4 1 3 4
+5 4

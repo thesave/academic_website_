@@ -143,6 +143,11 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 	<td>Research Design <br> Paper Presentation</td>
 	<td>Paper Presentation<br> The Mathematics of Networks</td>
 </tr>
+<tr>
+	<td>41</td>
+	<td>Group Paper Presentations <br> The Mathematics of Networks <br> UCINET Demonstration</td>
+	<td class="text-muted">Joint DHDK Degree Presentation (no lecture)</td>
+</tr>
 </tbody>
 </table>
 
@@ -159,13 +164,25 @@ Additional references:
 - Barabasi, A. L. (2014). Linked-how Everything is Connected to Everything Else and what it Means F (pp. 1-1). Perseus Books Group.
 - Watts, D. J. (2004). Six degrees: The science of a connected age. WW Norton & Company.
 
+**Dataset examples**
+- [<span class="source"></span> simple-graph matrix](na/examples/simple_graph_matrix.txt)
+- [<span class="source"></span> simple-graph nodelist](na/examples/simple_graph_nodelist.txt)
+- [<span class="source"></span> simple-graph, weighted edgelist](na/examples/simple_graph_edgelist_weighted.txt)
+- [<span class="source"></span> bimodal nodelist](na/examples/bimodal_nodelist.txt)
+
 **Resources:**
-[References](na/references/references.zip)
-• [UCINET](https://sites.google.com/site/ucinetsoftware/downloads)
-• [UCINET Installation Guide](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi)
-• [UCINET Guide](https://pages.uoregon.edu/vburris/hc431/Ucinet_Guide.pdf)
-• [Hanneman &amp; Riddle's Tutorial](http://faculty.ucr.edu/~hanneman/nettext/)
-• [UCINET Datasets](https://sites.google.com/site/ucinetsoftware/datasets)
+<div class="row" style="margin-bottom:1em;">
+<div class="col-xs-4"><a href="na/references/references.zip"><span class="source"></span> References</a></div>
+<div class="col-xs-4"><a href="https://www.youtube.com/watch?v=SWGABcUJpOM"><span class="video"></span> UCINET Getting Started Tutorial</a></div>
+<div class="col-xs-4"><a href="https://www.youtube.com/watch?v=NX0QBphzG-s"><span class="video"></span> UCINET Metrics and Visualisation Tutorial</a></div>
+</div><div class="row" style="margin-bottom:1em;">
+<div class="col-xs-4"><a href="https://sites.google.com/site/ucinetsoftware/downloads"><span class="link"></span> UCINET Download link</a></div>
+<div class="col-xs-4"><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi"><span class="source"></span> UCINET Installation Guide</a></div>
+<div class="col-xs-4"><a href="https://pages.uoregon.edu/vburris/hc431/Ucinet_Guide.pdf"><span class="link"></span> UCINET Guide</a></div>
+</div><div class="row" style="margin-bottom:1em;">
+<div class="col-xs-4"><a href="http://faculty.ucr.edu/~hanneman/nettext/"><span class="link"></span> UCINET Hanneman &amp; Riddle's Tutorial</a></div>
+<div class="col-xs-4"><a href="https://sites.google.com/site/ucinetsoftware/datasets"><span class="source"></span> UCINET Datasets</a></div>
+</div>
 
 **Reading Group Paper** [<span class="paper" style="margin-left:1em;"></span> An Information Flow Model for Conflict and Fission in Small Groups](na/papers/An Information Flow Model for Conflict and Fission in Small Groups.pdf)
 

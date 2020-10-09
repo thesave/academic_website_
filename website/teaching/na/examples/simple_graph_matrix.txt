@@ -1,0 +1,49 @@
+DL // this is an inline comment and "DL" is the keyword that specifies this is a UCINET Data Language (DL) file
+comment <- line-wide comments are prefixed by the keyword "comment" 
+
+title = "Our first simple network" // the title is optional, but it can help when working with/visualising the data
+
+NR = 4 // we specify the number of rows
+NC = 4 // and the number of columns
+// NOTE: we could have replaced NR and NC with just 
+// N = 4, which specifies we have a square matrix with N nodes
+
+// labels are assigned point-wise to nodes (first to the node in the row/column, etc.)
+// these are the labels for the elements in the columns
+col labels: 
+A
+B
+C
+D
+
+// these are the labels for the elements in the rows
+row labels: 
+A
+B
+C
+D
+
+// NOTE: if we used N = 4, then we could have used the "labels:" keyword as below
+// labels:
+// A
+// B
+// C
+// D
+
+format = fullmatrix // the FORMAT of the matrix
+// the main matrix formats are either the fullmatrix or the lowerhalf format 
+
+// this is the adjacency matrix
+data:
+0 1 0 1
+1 0 1 0
+0 1 0 0
+1 0 0 0
+
+// // since we have an undirected graph, we could have used the lowerhalf format
+// format = lowerhalf
+// data:
+// 0
+// 1 0
+// 0 1 0
+// 1 0 0 0
