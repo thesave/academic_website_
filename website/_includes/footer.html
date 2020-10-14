@@ -83,7 +83,10 @@
 <script type="text/javascript">
     function toggleTriangle( span ) {
         $( span.attr( "data-target" ) ).collapse( "toggle" );
-        triangle = span.find( "span" );
+        triangle = span.find( ".glyphicon-triangle-right" );
+        if( triangle.size() < 1 ){
+          triangle = span.find( ".glyphicon-triangle-bottom" );
+        }
         if ( triangle.hasClass( "glyphicon-triangle-right" ) ) {
             triangle.attr( "class" , "glyphicon glyphicon-triangle-bottom")
         } else {

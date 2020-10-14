@@ -151,6 +151,54 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 </tbody>
 </table>
 
+<div style="cursor: pointer;" data-target="#na_course_exam" onclick="toggleTriangle( $( this ) );" >
+<div class="alert alert-info" role="alert">
+<span class="glyphicon glyphicon-triangle-right"></span>
+<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Course Exam
+</div>
+</div>
+
+<div class="panel collapse" style="box-shadow: 0 0 black;" id="na_course_exam" markdown="1">
+
+<span class="alert-warning"><u>The exam consists in a project that applies the knowledge on network analysis acquired during the course</u></span>.
+<span class="alert-warning"><u>The exam's hand-in consists in a report of 5-6 pages (8-9 pages for projects with more students)</u></span>, detailing the context, the problem/motivation, the data, the measures, and the results of the project that the students performed.
+
+The project is either individual or in a small group and it is <span class="alert-warning"><u>negotiated with the teacher through a project proposal</u></span>.
+The project proposal is a 1-page document (2 pages for proposals with more students) that briefly presents the context, the problem/motivation, the proposed data, the designed measures, and the expected results of the research project that the student will perform.
+
+<span class="alert-warning"><u>The deadline for the agreement on the project proposal is always 20 days before the deadline for delivering the project.</u></span>
+Projects whose proposals did not receive the approval within that deadline will not be evaluated.
+
+Since reaching an agreement on the project proposal might require some negotiation, the students are strongly advised to contact the teacher at least *10 days before the deadline for the project agreement*, so there is enough time for that process to finish.
+
+Once the student has received the approval on her/his project proposal, s/he can deliver her/his project within the first valid deadline and the following ones---i.e., once a project proposal has been approved, the student can deliver the project at any valid following deadline.
+
+The grading starts after each project delivery deadline and considers all new (not graded) projects delivered before that deadline.
+
+The deadlines for project delivery are 8 in total within an A.Y. and spaced around 45 days apart (except for the August's break).
+
+Project delivery deadlines (23:59 UTC+2) for the A.Y. 20--21: 
+<div class="row">
+<div class="col-xs-3">Nov. 27<sup>th</sup>, 2020</div>
+<div class="col-xs-3">Gen. 8<sup>th</sup>, 2021</div>
+<div class="col-xs-3">Feb. 26<sup>th</sup>, 2021</div>
+<div class="col-xs-3">Apr. 9<sup>th</sup>, 2021</div>
+<div class="col-xs-3">May 21<sup>st</sup>, 2021</div>
+<div class="col-xs-3">Jul. 2<sup>nd</sup>, 2021</div>
+<div class="col-xs-3">Sep. 3<sup>rd</sup>, 2021</div>
+<div class="col-xs-3">Oct. 15<sup>th</sup>, 2021</div>
+</div>
+<div class="clear-fix"></div><br>
+
+**Delivery of Project Proposals and Reports**
+
+Project proposals and reports are delivered in PDF format and use an A4 single-column layout, 1-line spacing, 3cm margins, 12pt font (Times or equivalent).
+
+All deliveries happen via email at the address saverio.giallorenzo\[at\]gmail.com and must contain in the subject the prefix [Web Science/Network Analysis].
+
+<hr>
+</div>
+
 **Bibliography:**
 
 Main references:
@@ -186,9 +234,13 @@ Additional references:
 
 **Reading Group Paper** [<span class="paper" style="margin-left:1em;"></span> An Information Flow Model for Conflict and Fission in Small Groups](na/papers/An Information Flow Model for Conflict and Fission in Small Groups.pdf)
 
-<span style="cursor: pointer;" data-target="#na_papers" onclick="toggleTriangle( $( this ) );" ><span class="glyphicon glyphicon-triangle-right"></span>
-**Suggested Seminar Papers**
-</span>
+
+<div style="cursor: pointer;" data-target="#na_papers" onclick="toggleTriangle( $( this ) );" >
+<div class="alert alert-success" role="alert">
+<span class="glyphicon glyphicon-triangle-right"></span>
+<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Suggested Seminar Papers
+</div>
+</div>
 
 <div class="panel collapse" style="box-shadow: 0 0 black;" id="na_papers">
 <div class="row">
