@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Groups status
-permalink: /teaching/project/old/1516/groups.html
+permalink: /teaching/labos/project/old/1516/groups.html
 ---
 
 <div class="container-fluid">
@@ -141,7 +141,7 @@ permalink: /teaching/project/old/1516/groups.html
     <div><span class="label label-primary">Submitted (Sept)</span></div>
     <ul>
       <li>Cusmai Andrea</li>
-      <li>Sefgjini Arber</li>
+      <li>Redacted Redacted</li>
       <li>Molinari Riccardo</li>
       <li>Formanyuk Ihor</li>
       <li>Fakhreshafee Sasan</li>

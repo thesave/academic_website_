@@ -123,6 +123,10 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 		<td> <strong>The Mathematics of Networks</strong> </td>
 		<td> <a href="na/slides/L02.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
+	<tr>
+		<td> <strong>Data Collection and Data Management</strong> </td>
+		<td> <a href="na/slides/L03.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
 </table>
 
 **Lectures Schedule**
@@ -147,6 +151,11 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 	<td>41</td>
 	<td>Group Paper Presentations <br> The Mathematics of Networks <br> UCINET Demonstration</td>
 	<td class="text-muted">Joint DHDK Degree Presentation (no lecture)</td>
+</tr>
+<tr>
+	<td>42</td>
+	<td>Group Paper Presentations <br> Data Collection and Data Management <br> UCINET Demonstration</td>
+	<td>Data Collection and Data Management <br> UCINET Demonstration</td>
 </tr>
 </tbody>
 </table>

@@ -21,6 +21,7 @@ permalink: /activities/
   - [IEEE, Transactions on Software Engineering (TSE)](https://www.computer.org/csdl/journal/ts)
   - [IEEE, Transactions on Network and Service Management (TNSM)](https://www.comsoc.org/publications/journals/ieee-tnsm)
   - [International Conference on Concurrency Theory (CONCUR)](https://concur2020.forsyte.at/)
+  - [IEEE Communications Magazine](https://www.comsoc.org/publications/magazines/ieee-communications-magazine)
 
 </div>
 </div>

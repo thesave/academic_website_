@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Groups status
-permalink: /teaching/project/old/1415/groups.html
+permalink: /teaching/labos/project/old/1415/groups.html
 ---
 
 <div class="container-fluid">
