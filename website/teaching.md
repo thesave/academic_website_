@@ -205,6 +205,37 @@ Project proposals and reports are delivered in PDF format and use an A4 single-c
 
 All deliveries happen via email at the address saverio.giallorenzo\[at\]gmail.com and must contain in the subject the prefix [Web Science/Network Analysis].
 
+**Guidelines and Report Evaluation**
+
+The report is the artefact evaluated for the exam, but students are invited see it as a support tool when conducting their projects.
+Indeed, if done step-by-step during the project, reporting is a helpful tool to clarify and document the decisions taken by the student at each stage of the project.
+Moreover, besides "journaling" progress, the report is a useful tool for the students to check that they considered and reported on all the important aspects of their project study.
+The clear presentation/explanation of those aspects also forms the weighted partition that guides the grading (and indicates a ratio for distributing the contents of the report), as listed below:
+
+<table class="table">
+<tr>
+<th>Weight</th>
+<th>Aspects</th>
+</tr>
+<tr>
+<td>20%</td>
+<td>
+Context <br> Problem(s) <br> Motivation
+</td>
+</tr>
+<tr>
+<td>60%</td>
+<td>Dataset(s) and source(s) 
+<br>Validity and Reliability
+<br>Applied measure/s, its/their justification, and results
+</td>
+</tr>
+<td>20%</td>
+<td>Interpretation of the overall results <br> Critique (brief)</td>
+<tr>
+</tr>
+</table>
+
 <hr>
 </div>
 
