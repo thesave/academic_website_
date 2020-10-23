@@ -127,6 +127,14 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 		<td> <strong>Data Collection and Data Management</strong> </td>
 		<td> <a href="na/slides/L03.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
+	<tr>
+		<td> <strong>Testing Hypotheses</strong> </td>
+		<td> <a href="na/slides/L04.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
+	<tr>
+		<td> <strong>Measures and Metrics, Nodes</strong> </td>
+		<td> <a href="na/slides/L05.pdf"><span class="paper"></span> Slides</a> </td>
+	</tr>
 </table>
 
 **Lectures Schedule**
@@ -156,6 +164,11 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 	<td>42</td>
 	<td>Group Paper Presentations <br> Data Collection and Data Management <br> UCINET Demonstration</td>
 	<td>Data Collection and Data Management <br> UCINET Demonstration</td>
+</tr>
+<tr>
+	<td>43</td>
+	<td>Group Paper Presentations <br> Testing Hypotheses <br> UCINET Demonstration</td>
+	<td>Group Paper Presentations <br> Measures and Metrics, Nodes</td>
 </tr>
 </tbody>
 </table>
@@ -198,6 +211,11 @@ Project delivery deadlines (23:59 UTC+2) for the A.Y. 20--21:
 <div class="col-xs-3">Oct. 15<sup>th</sup>, 2021</div>
 </div>
 <div class="clear-fix"></div><br>
+
+Students registered to the exam on AlmaEsami should automatically receive the notification of the grading.
+Grades are officially registered one week after the notification from AlmaEsami. 
+Within that week, students who passed the exam but want to re-take it (on the same project proposal), can notify the teacher, who will not register their grade.
+Students have 3 attempts for re-taking the exam. After the third attempt, the last passing grade will be registered automatically.
 
 **Delivery of Project Proposals and Reports**
 
