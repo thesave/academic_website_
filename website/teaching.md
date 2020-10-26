@@ -278,7 +278,6 @@ Additional references:
 
 **Resources:**
 <div class="row" style="margin-bottom:1em;">
-<div class="col-xs-4"><a href="na/references/references.zip"><span class="source"></span> References</a></div>
 <div class="col-xs-4"><a href="https://www.youtube.com/watch?v=SWGABcUJpOM"><span class="video"></span> UCINET Getting Started Tutorial</a></div>
 <div class="col-xs-4"><a href="https://www.youtube.com/watch?v=NX0QBphzG-s"><span class="video"></span> UCINET Metrics and Visualisation Tutorial</a></div>
 </div><div class="row" style="margin-bottom:1em;">
