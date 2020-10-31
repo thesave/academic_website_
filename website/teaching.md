@@ -135,7 +135,6 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 		<td> <strong>Measures and Metrics, Nodes</strong> </td>
 		<td> <a href="na/slides/L05.pdf"><span class="paper"></span> Slides</a> </td>
 	</tr>
-	</tr>
 	<tr>
 		<td> <strong>Measures and Metrics, Networks</strong> </td>
 		<td> <a href="na/slides/L06.pdf"><span class="paper"></span> Slides</a> </td>
@@ -174,7 +173,6 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 	<td>43</td>
 	<td>Group Paper Presentations <br> Testing Hypotheses <br> UCINET Demonstration</td>
 	<td>Group Paper Presentations <br> Measures and Metrics, Nodes</td>
-</tr>
 </tr>
 <tr>
 	<td>44</td>
