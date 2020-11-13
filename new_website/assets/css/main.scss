@@ -74,16 +74,16 @@ margin-bottom: 2em;
 }
 
 .course-past {
-padding: 5px;
-margin: 10px 0;
-border-left: 1px solid;
-border-left-width: 5px;
-border-radius: 3px;
-padding-left: 15px;
-border-left-color: #662d918a;
-margin-bottom: 2em;
+  padding: 5px;
+  margin: 10px 0;
+  border-left: 1px solid;
+  border-left-width: 5px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border-left-color: #662d918a;
+  margin-bottom: 2em;
 }
-  
+
 .act-year div, .pub-year div {
 color: grey;
 margin-bottom: 5px;
@@ -97,9 +97,89 @@ color: black;
 color: grey;
 }
 
+.course-past a, .past-act a {
+  color: #007bffb8 !important;
+}
+
+
 .pub-year div span, .act-year div span {
 color: black;
 font-weight: 400;
+}
+
+.logo {
+  width: 140px;
+  height: 197px;
+  display: inline-block;
+  background-size: cover;
+  -moz-border-radius: 50%;
+  /* border: 2px solid #F1EED9; */
+  background-position-x: -18px;
+  margin-top: 30px;
+  background-position-y: -1px;
+}
+
+.bib {
+  background-image: url("/assets/images/layout/cite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+.paper {
+  background-image: url("/assets/images/layout/pdf.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 15px;
+  height: 21px;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+.video {
+  background-image: url("/assets/images/layout/video.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+.source {
+  background-image: url("/assets/images/layout/code.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-left: -2px;
+}
+
+.demo {
+  background-image: url("/assets/images/layout/demo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-left: -2px;
+}
+
+.link {
+  background-image: url("/assets/images/layout/link.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 17px;
+  height: 21px;
+  display: inline-block;
+  margin-bottom: -6px;
+  margin-left: 2px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

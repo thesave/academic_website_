@@ -1,0 +1,59 @@
+- field: History/Archeology/Anthropology
+  titles: 
+    - "Highly resolved early Eocene food webs show development of modern trophic structure after the end-Cretaceous extinction"
+    - "Networks and History"
+    - "Networks, Agent-Based Models, and the Antonine Itineraries - Implications for Roman Archaeology"
+    - "Redrawing the Map of Great Britain from a Network of Human Interactions"
+    - "Robust action and the rise of the Medici, 1400-1434"
+    - "The Jesus Movement and Social Network Analysis"
+    - "Using Social Network Analysis to Reveal Unseen Relationships in Medieval Scotland"
+    - "Compositional Equivalence with actor attributes - Positional analysis of the Florentine Families network"
+- field: Biology
+  titles: 
+    - "A General Framework for Weighted Gene Co-Expression Network Analysis"
+    - "Applying network analysis to explore the global scientific literature on food security"
+    - "Empirical analysis of the worldwide maritime transportation network"
+    - "Exploring the brain network: A review on resting-state fMRI functional connectivity"
+    - "Statistical and network analysis of 1212 COVID-19 patients in Henan, China"
+    - "The effect of anti-COVID-19 policies to the evolution of the disease - A complex network analysis to the successful case of Greece"
+    - "The emergent properties of a dolphin social network"
+- field: Transportation/Urbanism
+  titles: 
+    - "Software systems as complex networks: Structure, function, and evolvability of software collaboration graphs"
+    - "Is the Boston subway a small-world network?"
+    - "Structural properties of planar graphs of urban street patterns"
+- field: "Computer Science"
+  titles: 
+    - "Analysis of Linux kernel as a complex network"
+    - "Detection of Topological Patterns in Complex Networks - Correlation Profile of the Internet"
+    - "Predicting Defects using Network Analysis on Dependency Graphs"
+    - "Social structure of Facebook networks"
+- field: Economics
+  titles: 
+    - "Tourist Tour Planning Supported by Social Network Analysis"
+    - "Making Invisible Work Visible - Using Social Network Analysis to Support Strategic Collaboration"
+- field: Forensics
+  titles: 
+    - "Mapping Networks of Terrorist Cells"
+    - "The Network Structure of Opioid Distribution on a Darknet Cryptomarket"
+    - "Trust Thy Crooked Neighbor - Multiplexity in Chicago Organized Crime Networks"
+    - "Where \"Old Heads\" Prevail - Inmate Hierarchy in a Men's Prison Unit"
+- field: Music
+  titles: 
+    - "Community Structure in Jazz"
+- field: Bibliometrics
+  titles: 
+    - "Community structure of the physical review citation network"
+    - "Networks of Scientific Papers"
+    - "Stochastic Block Model Reveals the Map of Citation Patterns and Their Evolution in Time"
+- field: Engineering/Geology
+  titles: 
+    - "Do topological models provide good information about electricity infrastructure vulnerability?"
+    - "Optimal design of spatial distribution networks"
+    - "The Power Grid as a complex network - A survey"
+    - "Topology of technology graphs: Small world patterns in electronic circuits"
+    - "Trees, networks, and hydrology"
+- field: Literature
+  titles: 
+    - "On Social Networks in Plays and Novels"
+    - "Structure-based Clustering of Novels"

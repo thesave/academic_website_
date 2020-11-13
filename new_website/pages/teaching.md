@@ -2,77 +2,6 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-papers: 
-  - 
-    field: History/Archeology/Anthropology
-    titles: 
-      - "Highly resolved early Eocene food webs show development of modern trophic structure after the end-Cretaceous extinction"
-      - "Networks and History"
-      - "Networks, Agent-Based Models, and the Antonine Itineraries - Implications for Roman Archaeology"
-      - "Redrawing the Map of Great Britain from a Network of Human Interactions"
-      - "Robust action and the rise of the Medici, 1400-1434"
-      - "The Jesus Movement and Social Network Analysis"
-      - "Using Social Network Analysis to Reveal Unseen Relationships in Medieval Scotland"
-      - "Compositional Equivalence with actor attributes - Positional analysis of the Florentine Families network"
-  - 
-    field: Biology
-    titles: 
-      - "A General Framework for Weighted Gene Co-Expression Network Analysis"
-      - "Applying network analysis to explore the global scientific literature on food security"
-      - "Empirical analysis of the worldwide maritime transportation network"
-      - "Exploring the brain network: A review on resting-state fMRI functional connectivity"
-      - "Statistical and network analysis of 1212 COVID-19 patients in Henan, China"
-      - "The effect of anti-COVID-19 policies to the evolution of the disease - A complex network analysis to the successful case of Greece"
-      - "The emergent properties of a dolphin social network"
-  - 
-    field: Transportation/Urbanism
-    titles: 
-      - "Software systems as complex networks: Structure, function, and evolvability of software collaboration graphs"
-      - "Is the Boston subway a small-world network?"
-      - "Structural properties of planar graphs of urban street patterns"
-  - 
-    field: "Computer Science"
-    titles: 
-      - "Analysis of Linux kernel as a complex network"
-      - "Detection of Topological Patterns in Complex Networks - Correlation Profile of the Internet"
-      - "Predicting Defects using Network Analysis on Dependency Graphs"
-      - "Social structure of Facebook networks"
-  - 
-    field: Economics
-    titles: 
-      - "Tourist Tour Planning Supported by Social Network Analysis"
-      - "Making Invisible Work Visible - Using Social Network Analysis to Support Strategic Collaboration"
-  - 
-    field: Forensics
-    titles: 
-      - "Mapping Networks of Terrorist Cells"
-      - "The Network Structure of Opioid Distribution on a Darknet Cryptomarket"
-      - "Trust Thy Crooked Neighbor - Multiplexity in Chicago Organized Crime Networks"
-      - "Where \"Old Heads\" Prevail - Inmate Hierarchy in a Men's Prison Unit"
-  - 
-    field: Music
-    titles: 
-      - "Community Structure in Jazz"
-  - 
-    field: Bibliometrics
-    titles: 
-      - "Community structure of the physical review citation network"
-      - "Networks of Scientific Papers"
-      - "Stochastic Block Model Reveals the Map of Citation Patterns and Their Evolution in Time"
-  - 
-    field: Engineering/Geology
-    titles: 
-      - "Do topological models provide good information about electricity infrastructure vulnerability?"
-      - "Optimal design of spatial distribution networks"
-      - "The Power Grid as a complex network - A survey"
-      - "Topology of technology graphs: Small world patterns in electronic circuits"
-      - "Trees, networks, and hydrology"
-  - 
-    field: Literature
-    titles: 
-      - "On Social Networks in Plays and Novels"
-      - "Structure-based Clustering of Novels"
-
 ---
 
 ## Seminars
@@ -184,12 +113,13 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 
 <div style="cursor: pointer;" data-target="#na_course_exam" onclick="toggleTriangle( $( this ) );" >
 <div class="alert alert-info" role="alert">
-<span class="fas fa-angle-right"></span>
+<span class="fas fa-lg fa-angle-right"></span>
 <span class="fas fa-info-circle" aria-hidden="true"></span> Course Exam
 </div>
 </div>
 
-<div class="panel collapse" style="box-shadow: 0 0 black;" id="na_course_exam" markdown="1">
+<div class="card collapse" style="box-shadow: 0 0 black;" id="na_course_exam">
+<div class="card-body" markdown="1">
 
 <span class="alert-warning"><u>The exam consists in a project that applies the knowledge on network analysis acquired during the course</u></span>.
 <span class="alert-warning"><u>The exam's hand-in consists in a report of 5-6 pages (8-9 pages for projects with more students)</u></span>, detailing the context, the problem/motivation, the data, the measures, and the results of the project that the students performed.
@@ -209,17 +139,17 @@ The grading starts after each project delivery deadline and considers all new (n
 The deadlines for project delivery are 8 in total within an A.Y. and spaced around 45 days apart (except for the August's break).
 
 Project delivery deadlines (23:59 UTC+2) for the A.Y. 20--21: 
-<div class="row">
-<div class="col-xs-3">Nov. 27<sup>th</sup>, 2020</div>
-<div class="col-xs-3">Gen. 8<sup>th</sup>, 2021</div>
-<div class="col-xs-3">Feb. 26<sup>th</sup>, 2021</div>
-<div class="col-xs-3">Apr. 9<sup>th</sup>, 2021</div>
-<div class="col-xs-3">May 21<sup>st</sup>, 2021</div>
-<div class="col-xs-3">Jul. 2<sup>nd</sup>, 2021</div>
-<div class="col-xs-3">Sep. 3<sup>rd</sup>, 2021</div>
-<div class="col-xs-3">Oct. 15<sup>th</sup>, 2021</div>
+
+<div class="row my-4 ">
+<div class="col-3">Nov. 27<sup>th</sup>, 2020</div>
+<div class="col-3">Gen. 8<sup>th</sup>, 2021</div>
+<div class="col-3">Feb. 26<sup>th</sup>, 2021</div>
+<div class="col-3">Apr. 9<sup>th</sup>, 2021</div>
+<div class="col-3">May 21<sup>st</sup>, 2021</div>
+<div class="col-3">Jul. 2<sup>nd</sup>, 2021</div>
+<div class="col-3">Sep. 3<sup>rd</sup>, 2021</div>
+<div class="col-3">Oct. 15<sup>th</sup>, 2021</div>
 </div>
-<div class="clear-fix"></div><br>
 
 Students registered to the exam on AlmaEsami should automatically receive the notification of the grading.
 Grades are officially registered one week after the notification from AlmaEsami. 
@@ -263,7 +193,7 @@ Context <br> Problem(s) <br> Motivation
 </tr>
 </table>
 
-<hr>
+</div>
 </div>
 
 **Bibliography:**
@@ -287,15 +217,15 @@ Additional references:
 
 **Resources:**
 <div class="row" style="margin-bottom:1em;">
-<div class="col-xs-4"><a href="https://www.youtube.com/watch?v=SWGABcUJpOM"><span class="video"></span> UCINET Getting Started Tutorial</a></div>
-<div class="col-xs-4"><a href="https://www.youtube.com/watch?v=NX0QBphzG-s"><span class="video"></span> UCINET Metrics and Visualisation Tutorial</a></div>
+<div class="col-4"><a href="https://www.youtube.com/watch?v=SWGABcUJpOM"><span class="video"></span> UCINET Getting Started Tutorial</a></div>
+<div class="col-4"><a href="https://www.youtube.com/watch?v=NX0QBphzG-s"><span class="video"></span> UCINET Metrics and Visualisation Tutorial</a></div>
 </div><div class="row" style="margin-bottom:1em;">
-<div class="col-xs-4"><a href="https://sites.google.com/site/ucinetsoftware/downloads"><span class="link"></span> UCINET Download link</a></div>
-<div class="col-xs-4"><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi"><span class="source"></span> UCINET Installation Guide</a></div>
-<div class="col-xs-4"><a href="https://pages.uoregon.edu/vburris/hc431/Ucinet_Guide.pdf"><span class="link"></span> UCINET Guide</a></div>
+<div class="col-4"><a href="https://sites.google.com/site/ucinetsoftware/downloads"><span class="link"></span> UCINET Download link</a></div>
+<div class="col-4"><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx1Y2luZXRzb2Z0d2FyZXxneDoxYzMzMzdlZWQxN2Y4NjZi"><span class="source"></span> UCINET Installation Guide</a></div>
+<div class="col-4"><a href="https://pages.uoregon.edu/vburris/hc431/Ucinet_Guide.pdf"><span class="link"></span> UCINET Guide</a></div>
 </div><div class="row" style="margin-bottom:1em;">
-<div class="col-xs-4"><a href="http://faculty.ucr.edu/~hanneman/nettext/"><span class="link"></span> UCINET Hanneman &amp; Riddle's Tutorial</a></div>
-<div class="col-xs-4"><a href="https://sites.google.com/site/ucinetsoftware/datasets"><span class="source"></span> UCINET Datasets</a></div>
+<div class="col-4"><a href="http://faculty.ucr.edu/~hanneman/nettext/"><span class="link"></span> UCINET Hanneman &amp; Riddle's Tutorial</a></div>
+<div class="col-4"><a href="https://sites.google.com/site/ucinetsoftware/datasets"><span class="source"></span> UCINET Datasets</a></div>
 </div>
 
 **Reading Group Paper** [<span class="paper" style="margin-left:1em;"></span> An Information Flow Model for Conflict and Fission in Small Groups](na/papers/An Information Flow Model for Conflict and Fission in Small Groups.pdf)
@@ -303,21 +233,22 @@ Additional references:
 
 <div style="cursor: pointer;" data-target="#na_papers" onclick="toggleTriangle( $( this ) );" >
 <div class="alert alert-success" role="alert">
-<span class="glyphicon glyphicon-triangle-right"></span>
-<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Suggested Seminar Papers
+<span class="fas fa-lg fa-angle-right"></span>
+<span class="fas fa-info-circle" aria-hidden="true"></span> Suggested Seminar Papers
 </div>
 </div>
 
-<div class="panel collapse" style="box-shadow: 0 0 black;" id="na_papers">
+<div class="card collapse" style="box-shadow: 0 0 black;" id="na_papers">
+<div class="card-body">
 <div class="row">
 {% comment %}We assemble the topics and sort them{% endcomment %}
-{% assign topics = page.papers | map: "field" %}
+{% assign topics = site.data.teaching.papers | map: "field" %}
 {% assign topics = topics | sort %}
 {% for topic in topics %}
-<div class="col-xs-6">
+<div class="col-6">
 <strong>{{topic}}</strong>
 <ul class="small" style="list-style: none; margin-left:5px;">
-{% assign papers = page.papers | where: "field", topic | first %}
+{% assign papers = site.data.teaching.papers | where: "field", topic | first %}
 {% assign titles = papers.titles | sort %}
 {% for title in titles %}
 <li><a href="na/papers/{{ title | url_encode }}.pdf"><span class="paper"></span> {{title | truncatewords: 8, " ..."}}</a></li>
@@ -326,6 +257,7 @@ Additional references:
 </div>
 {% cycle '', '</div><div class="row">' %}
 {% endfor %}
+</div>
 </div>
 </div>
 
@@ -360,7 +292,7 @@ Teaching material, exercises, and assignments are available at the [repository](
 
 **Slides**
 
-<table class="table table-striped">
+<table class="table table-striped text-muted">
 	<tr>
 		<td> <strong>Introduction Interprocess Communication</strong> </td>
 		<td> <a href="labos/slides/000_Interprocess Communication.pdf"><span class="paper"></span> Slides</a> </td>
@@ -408,8 +340,8 @@ Dipartimento di Informatica - Scienza e Ingegneria, Mura Anteo Zamboni, 7 -
 
 <div class="container-fuid">
 	<div class="row">
-		<div class="col-xs-3">AA 2016-2017</div>
-		<div class="col-xs-9">
+		<div class="col-3">AA 2016-2017</div>
+		<div class="col-9">
 			<ul>
 				<li><a href="labos/project/current/project.pdf">Project Description</a></li>
 				<li><a href="labos/project/current/report_template.md">Report Template</a></li>			
@@ -452,12 +384,13 @@ Dipartimento di Informatica - Scienza e Ingegneria, Mura Anteo Zamboni, 7 -
 
 **FAQs**
 
-<span style="cursor: pointer;" data-target="#missingClass" onclick="toggleTriangle( $( this ) );" ><span class="glyphicon glyphicon-triangle-right"></span>
+<span style="cursor: pointer;" data-target="#missingClass" onclick="toggleTriangle( $( this ) );" >
+<span class="fas fa-lg fa-angle-right"></span>
 	I installed Jolie with the installer but when I launch <code>jolie</code> I get the message <mark>"Error: Could not find or load main class jolie.Jolie"</mark>.
 </span>
 
-<div class="panel panel-default collapse" id="missingClass">
-	<div class="panel-body small">
+<div class="card card-default collapse" id="missingClass">
+	<div class="card-body small">
 
 	<p>Did you launch the installer with the 
 	<a href="#" data-toggle="tooltip" title="" data-original-title="sudo for OSX/Linux, administrator in Windows."><strong>right permissions</strong></a>? If yes, proceed.</p>
@@ -473,12 +406,13 @@ Dipartimento di Informatica - Scienza e Ingegneria, Mura Anteo Zamboni, 7 -
 	</div>
 </div>
 
-<span style="cursor: pointer;" data-target="#elCapitan" onclick="toggleTriangle( $( this ) );" ><span class="glyphicon glyphicon-triangle-right"></span>
+<span style="cursor: pointer;" data-target="#elCapitan" onclick="toggleTriangle( $( this ) );" >
+<span class="fas fa-lg fa-angle-right"></span>
 	I get <mark>"command not found"</mark> after I installed Jolie under MacOs X El Capitan (10.10.11).
 </span>
 
-<div class="panel panel-default collapse" id="elCapitan">
-	<div class="panel-body small">
+<div class="card card-default collapse" id="elCapitan">
+	<div class="card-body small">
 
 		In MacOs X El Capitan (10.10.11) it is not possible to install Jolie using the default values provided by the installer. When prompted by the installer, insert e.g., <code>/usr/local/lib/jolie</code> as the directory of installation of Jolie and <code>/usr/local/bin</code> as the directory of the launchers.
 
@@ -496,7 +430,7 @@ Dipartimento di Informatica - Scienza e Ingegneria, Mura Anteo Zamboni, 7 -
 
 **Slides** (in Italian)
 
-<table class="table table-striped">
+<table class="table table-striped text-muted">
 	<tr>
 		<td> <strong>Introduction Database Systems</strong>*</td>
 		<td> <a href="ics_geo/slides/05_db.pdf"><span class="paper"></span> Slides</a> </td>

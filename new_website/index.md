@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<style>.interests a {color: inherit !important;font-weight: inherit;text-decoration: inherit;}</style>
+
 <div class="mb-3 container-flex row d-flex align-items-center justify-content-center" >
  <div class="col-12 small text-muted text-center align-self-start"></div>
  <div class="col-4 col-sm-2 d-flex text-right">
@@ -18,7 +20,7 @@ layout: default
  </ul>
  </div>
  <div class="col-12 col-sm-8 border-top small text-muted text-center align-self-start mt-3 pt-3">
- <div class="offset-1 col-9">
+ <div class="offset-1 col-9 interests">
  <a href="https://en.wikipedia.org/wiki/Programming_language">Programming Languages</a>
  • <a href="https://en.wikipedia.org/wiki/Process_calculus">Process Calculi</a> 
  • <a href="https://en.wikipedia.org/wiki/Service_choreography">Choreographic</a> Programming
