@@ -1,9 +1,10 @@
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom">
-  <h5 class="my-0 mr-md-auto font-weight-normal">{{ site.title }}</h5>
-  <nav class="row justify-content-center mr-md-1">
-    <a class="p-2 text-dark" href="/">Home</a>
-    {% for item in site.menu_items %}
-    <a class="p-2 text-dark" href="{{ item.link }}">{{ item.name }}</a>
-    {% endfor %}
-  </nav>
+<div class="align-items-center p-3 px-md-4 mb-3 bg-white border-bottom row">
+    <h5 class="col-12 col-sm font-weight-normal">{{ site.title }}</h5>
+    <nav class="col row d-flex justify-content-end mr-auto">
+      <a class="p-2 text-dark" href="/">Home</a>
+      {% for item in site.menu_items %}
+      <a class="p-2 text-dark" href="{{ item.link }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
 </div>
