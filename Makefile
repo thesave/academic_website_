@@ -24,6 +24,9 @@ build:
 serve:
 	$(JEKYLL) serve --base ""
 
+serve-old:
+	cd old_website && bundle exec jekyll server --base ""
+
 push: build
 	echo "Synchronizing files"
 	server=45.77.60.120

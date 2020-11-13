@@ -7,7 +7,7 @@ layout: default
 <div class="mb-3 container-flex row d-flex align-items-center justify-content-center" >
  <div class="col-12 small text-muted text-center align-self-start"></div>
  <div class="col-4 col-sm-2 d-flex text-right">
-  <img style="max-height:33vw;" class="img-fluid" src="/assets/images/photo_id.jpg" alt="">
+  <img style="max-height:33vw;object-fit:cover;" class="img-fluid" src="/assets/images/photo_id.jpg" alt="">
  </div>
  <div class="d-sm-flex d-none text-right border-right align-self-stretch">
  </div>

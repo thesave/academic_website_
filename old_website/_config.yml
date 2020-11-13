@@ -1,0 +1,8 @@
+# Site settings
+email: saverio.giallorenzo[at]gmail.com
+baseurl: "https://saveriogiallorenzo.com"
+url: "https://saveriogiallorenzo.com" # the base hostname & protocol for your site
+github_username:  thesave
+
+# Build settings
+markdown: kramdown

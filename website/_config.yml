@@ -1,8 +1,25 @@
-# Site settings
 email: saverio.giallorenzo[at]gmail.com
 baseurl: "https://saveriogiallorenzo.com"
-url: "https://saveriogiallorenzo.com" # the base hostname & protocol for your site
-github_username:  thesave
+url: "https://saveriogiallorenzo.com"
+github_username: thesave
+
+markdown: kramdown
 
 # Build settings
-markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+menu_items:
+  - name: Publications
+    link: "/publications"
+  - name: Projects
+    link: "/projects"
+  - name: Activities
+    link: "/activities"
+  - name: Teaching
+    link: "/teaching"
+  - name: Thesis/Research Ideas
+    link: "/ideas"
+  - name: About
+    link: "/about"

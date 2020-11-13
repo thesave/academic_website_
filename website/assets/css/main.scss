@@ -18,11 +18,11 @@ body {
   background-color: #fff !important;
   color: #1d1d1f !important;
   font-style: normal !important;
-  min-height:98vh;
+  min-height: 98vh !important;
 }
 
 wrapper {
-  min-height:98vh;
+  min-height:98vh !important;
 }
 
 .pub-year, .act-year {
@@ -42,7 +42,7 @@ wrapper {
 
 .act-year>span, .pub-year>span {
 font-size: 1.6em;
-margin-top: -25px;
+margin-top: -32px;
 padding-bottom: 5px;
 display: block;
 width: 3em;
