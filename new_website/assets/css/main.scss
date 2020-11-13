@@ -4,29 +4,25 @@
 @charset "utf-8";
 
 h1, h2, h3, h4, h5 {
-  font-weight: 600;
-  letter-spacing: -.009em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: -.009em !important;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
 }
 
 body {
-  font-size: 17px;
-  line-height: 1.47059;
-  font-weight: 400;
-  letter-spacing: -.022em;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  background-color: #fff;
-  color: #1d1d1f;
-  font-style: normal;
+  font-size: 18px !important;
+  line-height: 1.47059 !important;
+  font-weight: 400 !important;
+  letter-spacing: -.022em !important;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+  background-color: #fff !important;
+  color: #1d1d1f !important;
+  font-style: normal !important;
   min-height:98vh;
 }
 
 wrapper {
   min-height:98vh;
-}
-
-main {
-   flex:1;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
