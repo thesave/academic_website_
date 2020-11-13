@@ -28,4 +28,32 @@
       This website uses only proprietary and third party technical cookies to ensure the correct operation of its web pages and to improve its services. By navigating the website, you consent to the use of cookies. To learn more, or deny your consent, consult the privacy policy. Please, find more information about your rights on your personal data at the data protection page at UniBo.
     </div>
   </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-39405972-1', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
+  <script type="text/javascript">
+      function toggleTriangle( span ) {
+          $( span.attr( "data-target" ) ).collapse( "toggle" );
+          var triangle = span.find( ".fa-angle-right" );
+          if( triangle.size() < 1 ){
+            triangle = span.find( ".fa-angle-bottom" );
+          }
+          if ( triangle.hasClass( "fa-angle-right" ) ) {
+              triangle.attr( "class" , "fas fa-angle-bottom")
+          } else {
+              triangle.attr( "class" , "fas fa-angle-right")
+          }
+      }    
+  </script>
+  <!-- initialise tooltips -->
+  <script type="text/javascript">$('[data-toggle="tooltip"]').tooltip()</script>
+
 </footer>

@@ -184,8 +184,8 @@ Seminar on from Service-Oriented Computing to Microservices and Beyond for the [
 
 <div style="cursor: pointer;" data-target="#na_course_exam" onclick="toggleTriangle( $( this ) );" >
 <div class="alert alert-info" role="alert">
-<span class="glyphicon glyphicon-triangle-right"></span>
-<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Course Exam
+<span class="fas fa-angle-right"></span>
+<span class="fas fa-info-circle" aria-hidden="true"></span> Course Exam
 </div>
 </div>
 
