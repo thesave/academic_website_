@@ -1,0 +1,446 @@
+---
+  - year: 2020
+    papers:
+      - bibitem: |
+          @incollection{BGMTZ20,
+            author    = {Mario Bravetti and
+                        Saverio Giallorenzo and
+                        Jacopo Mauro and
+                        Iacopo Talevi and
+                        Gianluigi Zavattaro},
+            title     = {A Formal Approach to Microservice Architecture Deployment},
+            booktitle = {Microservices, Science and Engineering},
+            pages     = {183--208},
+            year      = {2020},
+            doi       = {10.1007/978-3-030-31646-4\_8},
+            publisher = {Springer}
+          }
+        abstract: |
+          Following previous work on the automated deployment of component-based applications, we present a formal model specifically tailored for reasoning on the deployment of microservice architectures. The first result that we present is a formal proof of decidability of the problem of synthesizing optimal deployment plans for microservice architectures, a problem which was proved to be undecidable for generic component-based applications. Then, given that such proof translates the deployment problem into a constraint satisfaction problem, we present the implementation of a tool that, by exploiting state-of-the-art constraint solvers, can be used to actually synthesize optimal deployment plans. We evaluate the applicability of our tool on a realistic microservice architecture taken from the literature.
+        page: /publications/mse2020/mse2020.pdf
+      - bibitem: |
+          @unpublished{PGMZ20,
+            author    = {Giuseppe {de Palma} and Saverio Giallorenzo and Jacopo Mauro and Gianluigi Zavattaro},
+            title     = {Allocation Priority Policies for Serverless Function-execution Scheduling Optimisation},
+            year      = {2020}
+          }
+        abstract: |
+          Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. In this paper, we address the problem of function-execution scheduling, i.e., how to schedule the execution of Serverless functions to optimise their performance against some user-defined goals. We introduce a declarative language of Allocation Priority Policies (APP) to specify policies that inform the scheduling of function execution. We present a prototypical implementation of APP as an extension of Apache OpenWhisk and we validate it by i) implementing a use case combining IoT, Edge, and Cloud Computing and ii) by comparing its performance to an alternative implementation that uses vanilla OpenWhisk.
+        page: /publications/icsoc2020/icsoc2020.pdf
+        to_appear: Proceedings of 18th International Conference (ICSOC) 2020
+
+  - year: 2019
+    papers: 
+      - 
+        abstract: |
+            Microservices are highly modular and scalable Service Oriented Architectures. They underpin automated deployment practices like Continuous Deployment and Autoscaling. In this paper we formalize these practices and show that automated deployment — proven undecidable in the general case — is algorithmically treatable for microservices.
+            
+            Our key assumption is that the configuration life-cycle of a microservice is split into two phases: (i) creation, which entails establishing initial connections with already available microservices, and (ii) subsequent binding/unbinding with other microservices. To illustrate the applicability of our approach, we implement an automatic optimal deployment tool and compute deployment plans for a realistic microservice architecture, modeled in the Abstract Behavioral Specification (ABS) language.
+        bibitem: |
+            @inproceedings{BGMTZ19,
+              author = {Bravetti, Mario and Giallorenzo, Saverio and Mauro, Jacopo and Talevi, Iacopo and Zavattaro, Gianluigi},
+              title = {Optimal and Automated Deployment for Microservices},
+              booktitle = {Fundamental Approaches to Software Engineering - 22nd International  Conference, {FASE} 2019, Held as Part of the European Joint Conferences  on Theory and Practice of Software, {ETAPS} 2019, Prague, Czech Republic,  April 6-11, 2019, Proceedings},
+              pages = {351--368},
+              year = {2019},
+              doi = {10.1007/978-3-030-16722-6\_21},
+              publisher = {Springer}
+            }
+        page: /publications/fase2019/fase2019.pdf
+      - 
+        abstract: "The Internet of Things (IoT) advocates for multi-layered platforms—from edge devices to Cloud nodes—where each layer adopts its own communication standards (media and data formats). While this freedom is optimal for in-layer communication, it puzzles cross-layer integration due to incompatibilities among standards. Also enforcing a unique communication stack within the same IoT platform is not a solution, as it leads to the current phenomenon of “IoT islands”, where disparate platforms hardly interact with each other. In this paper we tackle the problem of IoT cross-layer and cross-platform integration fol- lowing a language-based approach. We build on the Jolie programming language, which provides uniform linguistic abstractions to exploit heterogeneous communication stacks, allowing the programmer to specify in a declarative way the desired stack, and to easily change it, even at runtime. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. We integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. We report our experience on a case study on Cloud-based home automation, and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions.\n"
+        bibitem: |
+            @incollection{gabbrielli2019linguistic,
+              title={Linguistic Abstractions for Interoperability of IoT Platforms},
+              author={Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Zingaro, Stefano Pio},
+              booktitle={Towards Integrated Web, Mobile, and IoT Technology},
+              pages={83--114},
+              year={2019},
+              publisher={Springer}
+            }
+        page: /publications/lnbip2019/lnbip2019.pdf
+      - 
+        abstract: "Platoon formation is a freight organization system where a group of vehicles follows a predefined trajectory maintaining a desired spatial pattern. Benefits of platooning include fuel savings, reduction of carbon dioxide emissions, and efficient allocation of road capacity. While traditionally platooning has been an exclusive option limited to specific geographical areas managed by a single operator, recent technological developments and EU initiatives are directed at the creation of an international, federated market for platooning, i.e., a consortium of platoon operators that collaborate and coordinate their users to constitute freights covering international routes. In this paper, we look at federated platooning from an insiders’ perspective. In our development, first we outline the basic elements of platooning and federation of platooning operators. Then, we provide a comprehensive analysis to identify the possible insiders (employees, users, operators, and federated members) and the threats they pose. Finally, we propose two layered, composable technical solutions to mitigate those threats: a) a decentralized overlay network that regulates the interactions among the stakeholders, useful to mitigate issues linked to data safety and trustworthiness and b) a dynamic federation platform, needed to monitor and interrupt deviant behaviours of federated members.\n"
+        bibitem: |
+            @inproceedings{CGGMP19,
+              author = {Callegati, Franco and Giallorenzo, Saverio and Gabbrielli, Maurizio and Melis, Andrea and Prandini, Marco},
+              title = {Federated Platooning: Insider Threats and Mitigations},
+              booktitle = {52nd Hawaii International Conference on System Sciences, {HICSS} 2019,  Grand Wailea, Maui, Hawaii, USA, January 8-11, 2019},
+              pages = {1--10},
+              year = {2019},
+              publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
+            }
+        page: /publications/hicss2019_sec/hicss2019_sec.pdf
+      - 
+        abstract: "In Choreographic Programming, a choreography specifies in a single artefact the expected behaviour of all the participants in a distributed system. The choreography is used to synthesise correct-by- construction programs for each participant. In previous work, we defined Dynamic Choreographies to support the update of distributed systems at runtime. In this work, we extend Dynamic Choreographies to include new participants at runtime, capturing those use cases where the system might be updated to interact with new, unforeseen stakeholders. We formalise our extension, prove its correctness, and present an implementation in the AIOCJ choreographic framework.\n"
+        bibitem: |
+            @inproceedings{GGLM19,
+              author = {Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+              title = {Guess Who's Coming: Runtime Inclusion of Participants in Choreographies},
+              booktitle = {The Art of Modelling Computational Systems: {A} Journey from Logic  and Concurrency to Security and Privacy - Essays Dedicated to Catuscia  Palamidessi on the Occasion of Her 60th Birthday},
+              pages = {118--138},
+              year = {2019},
+              doi = {10.1007/978-3-030-31175-9\_8},
+              publisher = {Springer}
+            }
+        page: /publications/guess-who/guess-who.pdf
+      - 
+        abstract: "Serverless computing, also known as Functions-as-a-Service, is a recent paradigm aimed at simplifying the programming of cloud applications. The idea is that developers design applications in terms of functions, which are then deployed on a cloud infrastructure. The infrastructure takes care of executing the functions whenever requested by remote clients, dealing automatically with distribution and scaling with respect to inbound traffic. While vendors already support a variety of programming languages for serverless computing (e.g. Go, Java, Javascript, Python), as far as we know there is no reference model yet to formally reason on this paradigm. In this paper, we propose the first core formal programming model for serverless computing, which combines ideas from both the λ-calculus (for functions) and the π-calculus (for communication). To illustrate our proposal, we model a real-world serverless system. Thanks to our model, we capture limitations of current vendors and formalise possible amendments.\n"
+        bibitem: |
+            @inproceedings{GGLMPZ19,
+              author = {Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Montesi, Fabrizio and Peressotti, Marco and Zingaro, Stefano Pio},
+              editor = {Nielson, Hanne Riis and Tuosto, Emilio},
+              title = {No More, No Less - {A} Formal Model for Serverless Computing},
+              booktitle = {Coordination Models and Languages - 21st {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2019, Held as Part of the 14th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2019, Kongens Lyngby, Denmark, June 17-21, 2019, Proceedings},
+              series = {Lecture Notes in Computer Science},
+              volume = {11533},
+              pages = {148--157},
+              publisher = {Springer},
+              year = {2019},
+              doi = {10.1007/978-3-030-22397-7\_9}
+            }
+        page: /publications/coordination2019/coordination2019.pdf
+      - 
+        abstract: "Ephemeral data handling, whereby processed data do not persist, is an emerging requirement of connected IT systems, due to storage constraints (IoT) or regulatory demands (eHealth, GDPR). We present ongoing work on TQuery, a query language for ephemeral data handling in microservices.\n"
+        bibitem: |
+            @inproceedings{GMSZ19,
+              author = {Giallorenzo, Saverio and Montesi, Fabrizio and Safina, Larisa and Zingaro, Stefano Pio},
+              title = {Ephemeral Data Handling in Microservices},
+              booktitle = {2019 {IEEE} International Conference on Services Computing, {SCC} 2019, Milan, Italy, July 8-13, 2019},
+              pages = {234--236},
+              year = {2019},
+              doi = {10.1109/SCC.2019.00048},
+              publisher = {{IEEE}}
+            }
+        page: /publications/scc2019/scc2019.pdf
+        additional_material:
+          - description: Technical Report
+            url: https://arxiv.org/abs/1904.11327
+      - 
+        abstract: "Network Function Virtualization (NFV) and Software Defined Networking (SDN) are technologies that recently acquired a great momentum thanks to their promise of being a flexible and cost-effective solution for replacing hardware-based, vendor-dependent network middleboxes with software appliances running on general purpose hardware in the cloud. Delivering end-to-end networking services across multiple NFV/SDN network domains by implementing the so-called Service Function Chain (SFC) i.e., a sequence of Virtual Network Functions (VNF) that composes the service, is a challenging task. In this paper we address two crucial sub-problems of this task: i) the language to formalize the request of a given SFC to the network and ii) the solution of the SFC design problem, once the request is received. As for i) in our solution the request is built upon the intent-based approach, with a syntax that focuses on asking the user “what” she needs and not “how” it should be implemented, in a simple and high level language. Concerning ii) we define a formal model describing network architectures and VNF properties that is then used to solve the SFC design problem by means of Constraint Programming (CP), a programming paradigm which is often used in Artificial Intelligence applications. We argue that CP can be effectively used to address this kind of problems because it provides very expressive and flexible modelling languages which come with powerful solvers, thus providing efficient and scalable performance. We substantiate this claim by validating our tool on some typical and non trivial SFC design problems.\n"
+        bibitem: |
+            @inproceedings{LCCCGG19,
+              author = {Liu, Tong and Callegati, Franco and Cerroni, Walter and Contoli, Chiara and Gabbrielli, Maurizio and Giallorenzo, Saverio},
+              title = {Constraint Programming for Flexible Service Function Chaining Deployment},
+              booktitle = {52nd Hawaii International Conference on System Sciences, {HICSS} 2019,  Grand Wailea, Maui, Hawaii, USA, January 8-11, 2019},
+              pages = {1--10},
+              year = {2019},
+              publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
+            }
+        page: /publications/hicss2019_cp/hicss2019_cp.pdf
+        notes: Best Paper Nomination
+  - year: 2018
+    papers: 
+      - 
+        abstract: "Mobility-as-a-Service (MaaS) applies the everything-as-a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we revise and extend previous work where we classified the potential threats of individual operators and markets of federated MaaS providers, proposing appropriate countermeasures to mitigate the problems. In addition, we consider the emerging case of Cloud-of-Things (CoT) for mobility, i.e., networks of ubiquitous, pervasive devices that provide real-time data on objects and people. Automation and pervasiveness of CoT make an additional attack surface for insiders. In an effort to limit such phenomenon, we present an overlay networking architecture, based on gossip protocols, that lets users share information on mobility with each other. A peculiarity of the architecture is that it both constrains the quality and quantity of data obtainable by insiders, optimizing the routing of requests to involve only users that are able to answer them.\n"
+        bibitem: |
+            @article{CGMP18,
+              author    = {Franco Callegati and
+                          Saverio Giallorenzo and
+                          Andrea Melis and
+                          Marco Prandini},
+              title     = {Cloud-of-Things meets Mobility-as-a-Service: An insider threat perspective},
+              journal   = {Comput. Secur.},
+              volume    = {74},
+              pages     = {277--295},
+              year      = {2018},
+              doi       = {10.1016/j.cose.2017.10.006}
+            }
+        page: /publications/cs2018/cs2018.pdf
+      - 
+        abstract: "The Internet of Things (IoT) promotes the communication among heterogeneous entities, from small sensors to Cloud systems. However, this is realized using a wide range of communication media and data protocols, usually incompatible with each other. Thus, IoT systems tend to grow as homogeneous isolated platforms, which hardly interact. To achieve a higher degree of interoperability among disparate IoT platforms, we propose a language-based approach for communication technology integration. We build on the Jolie programming language, which allows programmers to easily make the same logic work over disparate communication stacks in a declarative, dynamic way. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. As technical result, we integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. In this paper, we report our experience and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions."
+        bibitem: |
+            @inproceedings{GGLZ18,
+              author    = {Maurizio Gabbrielli and
+                          Saverio Giallorenzo and
+                          Ivan Lanese and
+                          Stefano Pio Zingaro},
+              title     = {A Language-based Approach for Interoperability of IoT Platforms},
+              booktitle = {51st Hawaii International Conference on System Sciences, {HICSS} 2018,
+                          Hilton Waikoloa Village, Hawaii, USA, January 3-6, 2018},
+              pages     = {1--10},
+              year      = {2018},
+              publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
+            }
+        page: /publications/hicss2018/hicss2018.pdf
+      - 
+        abstract: "Over the years, organizations acquired disparate software systems, each answering one specific need. Currently, the desirable outcomes of integrating these systems (higher degrees of automation and better system consistency) are often outbalanced by the complexity of mitigating their discrepancies. These problems are magnified in the decentralized setting (e.g., cross-organizational cases) where the integration is usually dealt with ad-hoc “glue” connectors, each integrating two or more systems. Since the overall logic of the integration is spread among many glue connectors, these solutions are difficult to program correctly (making them prone to misbehaviours and system blocks), maintain, and evolve. In response to these problems, we propose ChIP, an integration process advocating choreographic programs as intermediate artefacts to refine high-level global specifications (e.g., UML Sequence Diagrams), defined by the domain experts of each partner, into concrete, distributed implementations. In ChIP, once the stakeholders agree upon a choreographic integration design, they can automatically generate the respective local connectors, which are guaranteed to faithfully implement the described distributed logic. In the paper, we illustrate ChIP with a pilot from the EU EIT Digital project SMAll, aimed at integrating pre-existing systems from government, university, and transport industry."
+        bibitem: |
+            @inproceedings{GLR18,
+              author = {Giallorenzo, Saverio and Lanese, Ivan and Russo, Daniel},
+              title = {ChIP: {A} Choreographic Integration Process},
+              booktitle = {On the Move to Meaningful Internet Systems. {OTM} 2018 Conferences  - Confederated International Conferences: CoopIS, C{\&}TC, and  {ODBASE} 2018, Valletta, Malta, October 22-26, 2018, Proceedings,  Part {II}},
+              pages = {22--40},
+              year = {2018},
+              publisher = {Springer},
+              doi = {10.1007/978-3-030-02671-4\_2}
+            }
+        page: /publications/coopis2018/coopis2018.pdf
+      - 
+        abstract: "Choreographic Programming is a paradigm for distributed programming, where high-level “Alice and Bob” descriptions of communications (choreographies) are used to synthesise correct-by-construction programs. However, implementations of choreographic models use message routing technologies distant from their related theoretical models (e.g., CCS/π channels). This drives implementers to mediate discrepancies with the theory through undocumented, unproven adaptations, weakening the reliability of their implementations. As a solution, we propose the framework of Applied Choreographies (AC). In AC, programmers write choreographies in a language that follows the standard syntax and semantics of previous works. Then, choreographies are compiled to a real-world execution model for Service-Oriented Computing (SOC). To manage the complexity of this task, our compilation happens in three steps, respectively dealing with: implementing name-based communications using the concrete mechanism found in SOC, projecting a choreography to a set of processes, and translating processes to a distributed implementation in terms of services.\n"
+        bibitem: |
+            @inproceedings{GMG18,
+              author = {Giallorenzo, Saverio and Montesi, Fabrizio and Gabbrielli, Maurizio},
+              title = {Applied Choreographies},
+              booktitle = {Formal Techniques for Distributed Objects, Components, and Systems  - 38th {IFIP} {WG} 6.1 International Conference, {FORTE} 2018, Held  as Part of the 13th International Federated Conference on Distributed  Computing Techniques, DisCoTec 2018, Madrid, Spain, June 18-21, 2018,  Proceedings},
+              pages = {21--40},
+              year = {2018},
+              doi = {10.1007/978-3-319-92612-4_2},
+              timestamp = {Wed, 30 May 2018 14:24:03 +0200},
+              publisher = {Springer}
+            }
+        page: /publications/AC/AC.pdf
+        additional_material: 
+          - description: Technical Report
+            url: /publications/AC/AC_tr.pdf
+  - year: 2017
+    papers: 
+      - 
+        abstract: "Programming distributed applications free from communication deadlocks and race conditions is complex. Preserving these properties when applications are updated at runtime is even harder. We present a choreographic approach for programming updatable, distributed applications. We define a choreography language, called Dynamic Interaction-Oriented Choreography (DIOC), that allows the programmer to specify, from a global viewpoint, which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each participant in a process-level language called Dynamic Process-Oriented Choreographies (DPOC). We prove that DPOC distributed applications generated from DIOC specifications are deadlock free and race free and that these properties hold also after any runtime update. We instantiate the theoretical model above into a programming framework called Adaptable Interaction-Oriented Choreographies in Jolie (AIOCJ) that comprises an integrated development environment, a compiler from an extension of DIOCs to distributed Jolie programs, and a runtime environment to support their execution."
+        bibitem: |
+            @article{PGGLM17,
+              author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+              title = {Dynamic Choreographies: Theory And Implementation},
+              journal = {Logical Methods in Computer Science},
+              volume = {13},
+              number = {2},
+              year = {2017},
+              doi = {10.23638/LMCS-13(2:1)2017},
+            }
+        page: /publications/lmcs2017/lmcs2017.pdf
+      - 
+        abstract: |
+            Multi-modal travelling is a common phenomenon. However, planning multi-modal journeys is still an unstructured and time-consuming experience for customers: they lose time assembling a comprehensive plan out of disparate data, spread over a multitude of information systems — each corresponding to a different company responsible for one of the legs in the journey. Also transport operators are affected by the sparsity of the transportation market, as they might lose potential customers who could not find or know about their services. In this paper, we propose Mobility as a Service (MaaS) as a solution to such problems. Key element of MaaS is that MaaS operators can aggregate solutions of multiple providers to deliver dynamic, transparent multi-modal travels to their users, who experience transportation as managed directly by a single operator. However, given the volume and sparsity of the transportation market, we argue that MaaS operators cannot rely on one-to-one, custom contracts of usage with single mobility operators. Instead, we envision the creation of platforms that automatise the marketing of services for mobility among many mobility providers.
+            
+            In this work, we detail the required features of a general software platform for such a MaaS market. In particular, we provide a precise definition of MaaS through the MaaS Stack — a tiered view of the components needed by entities to join the MaaS market. Then, through the lens of the MaaS Stack, we elicit the features of an enabling software platform. Finally, to validate our approach, we present a compliant prototype, called SMAll, and discuss its main design choices, among which: i) how SMAll supports the creation of a federation-based MaaS market and ii) how microservices — an emerging architectural style that fosters cohesiveness and minimality of components — enhance flexibility and let the platform and the services of its members efficiently scale according to dynamic demands.
+        bibitem: |
+            @inproceedings{CGGMP17,
+              author    = {Franco Callegati and
+                          Maurizio Gabbrielli and
+                          Saverio Giallorenzo and
+                          Andrea Melis and
+                          Marco Prandini},
+              title     = {Smart mobility for all: {A} global federated market for mobility-as-a-service
+                          operators},
+              booktitle = {20th {IEEE} International Conference on Intelligent Transportation
+                          Systems, {ITSC} 2017, Yokohama, Japan, October 16-19, 2017},
+              pages     = {1--8},
+              publisher = {{IEEE}},
+              year      = {2017},
+              doi       = {10.1109/ITSC.2017.8317701}
+            }
+        page: publications/itsc2017/itsc2017.pdf
+      - 
+        abstract: "Mobility as a Service (MaaS) applies the everything-as- a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we follow a tiered structure — from individual operators to markets of federated MaaS providers — to classify the potential threats of each tier and propose the appropriate countermeasures, in an effort to mitigate the problems.\n"
+        bibitem: |
+            @inproceedings{CGMP17,
+              author    = {Franco Callegati and
+                          Saverio Giallorenzo and
+                          Andrea Melis and
+                          Marco Prandini},
+              title     = {Insider Threats in Emerging Mobility-as-a-Service Scenarios},
+              booktitle = {50th Hawaii International Conference on System Sciences, {HICSS} 2017,
+                          Hilton Waikoloa Village, Hawaii, USA, January 4-7, 2017},
+              pages     = {1--10},
+              year      = {2017},
+              publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
+            }
+        page: /publications/hicss2017/hicss2017.pdf
+      - 
+        abstract: "The microservice architecture is a style inspired by service-oriented computing that has recently started gaining popularity. Before presenting the current state-of-the-art in the field, this chapter reviews the history of software architecture, the reasons that led to the diffusion of objects and services first, and microservices later. Finally, open problems and future challenges are introduced. This survey addresses mostly newcomers to the discipline and offers an academic viewpoint on the topic. In addition, practical aspects are investigated and solutions proposed."
+        bibitem: |
+            @incollection{DGLMMMS17,
+              author    = {Nicola Dragoni and
+                          Saverio Giallorenzo and
+                          Alberto Lluch{-}Lafuente and
+                          Manuel Mazzara and
+                          Fabrizio Montesi and
+                          Ruslan Mustafin and
+                          Larisa Safina},
+              title     = {Microservices: Yesterday, Today, and Tomorrow},
+              booktitle = {Present and Ulterior Software Engineering},
+              pages     = {195--216},
+              year      = {2017},
+              doi       = {10.1007/978-3-319-67425-4\_12},
+              publisher = {Springer},
+            }
+        page: /publications/msytt/msytt.pdf
+      - 
+        abstract: "This tutorial describes AIOCJ, which stands for Adaptive Interaction Oriented Choreographies in Jolie, a choreographic language for programming microservice-based applications which can be updated at runtime. The compilation of a single AIOCJ program generates the whole set of distributed microservices that compose the application. Adaptation is performed using adaptation rules. Abstractly, each rule replaces a pre-delimited part of the program with the new code contained in the rule itself. Concretely, at runtime, the application of a rule updates part of the microservices that compose the application so to match the behaviour specified by the updated program. Thanks to the properties of choreographies, the adaptive application is free from communication deadlocks and message races even after adaptation."
+        bibitem: |
+            @incollection{GLMG17,
+              author = {Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo and Gabbrielli, Maurizio},
+              title = {Programming Adaptive Microservice Applications: An {AIOCJ} Tutorial},
+              editor = {Gay, Simon and Ravara, Ant{\'o}nio},
+              booktitle = {Behavioural Types: from Theory to Tools},
+              pages = {147--167},
+              year = {2017},
+              publisher = {River Publishers}
+            }
+        page: /publications/betty2017/betty2017.pdf
+    
+  - year: 2016
+    papers: 
+      - 
+        abstract: |
+            Choreographies are a relatively new tool for designing distributed systems from a global viewpoint. Choreographic specifications are also free from deadlocks and race conditions by design. Recent theoretical results defined proper Endpoint Projection (EPP) functions to compile choreographic specifications into their single components. Since EPPs are behavioural preserving, projected systems also enjoy freedom from deadlocks and races by construction.
+            
+            Aim of this PhD is to formalise non-trivial features of distributed systems with choreographies and to translate our theoretical results into the practice of implemented systems. To this purpose, we provide two main contributions.
+            
+            The first contribution tackles one of the most challenging features of distributed development: programming correct and consistent runtime updates of distributed systems. Our solution is a theoretical model of dynamic choreographies that provides a clear definition of which components and behaviours can be updated. We prove that compiled choreographic specifications are correct and consistent after any update. We also refine our theoretical model to provide a finer control over updates. On this refinement, we develop a framework for programming adaptable distributed systems.
+            
+            The second contribution covers one of the main issues of implementing theoretical results on choreographies: formalising the compilation from choreographies to executable programs. There is a sensible departure between the present choreographic frameworks and their theoretical models because their theories abstract communications with synchronisation on names (a la CCS/π-calculus) yet they compile to Jolie programs, an executable language that uses correlation — a renown technology of Service-Oriented Computing — for message routing. Our solution is a theory of Applied Choreographies (AC) that models correlation-based message passing. We pinpoint the key theoretical problems and formalise the principles that developers should follow to obtain correct implementations. Finally, we prove our approach by defining a correct compiler from AC to the calculus behind the Jolie language.
+        bibitem: |
+            @phdthesis{G16,
+              title={Real-World Choreographies},
+              author={Giallorenzo, Saverio},
+              year={2016},
+              school={Universit{\`a} degli studi di Bologna}
+            }
+        page: /publications/phdthesis/Saverio_Giallorenzo_-_Real-World_Choreographies.pdf
+      - 
+        abstract: "Mobility as a Service takes the concept of XaaS to transportation: a MaaS provider shall merge transport options from different mobility providers, seamlessly handling the whole experience of travelling, from providing information, to travel planning, and payments handling. To effectively support the creation of a market of MaaS providers, we envision the creation of ICT infrastructures based on microservices, a modern and renowned development model that fosters the creation of an ecosystem of reusable components. The flexibility of such platforms is their key advantage, yet it poses many security issues. In this paper, we look at these problems through the lens of our experience on one of such platforms, called SMAll. We classify the most relevant vulnerabilities related to data reliability, integrity, and authenticity, and we investigate directions for their mitigation.\n"
+        bibitem: |
+            @inproceedings{CGMP16,
+              author = {Callegati, Franco and Giallorenzo, Saverio and Melis, Andrea and Prandini, Marco},
+              title = {Data security issues in MaaS-enabling platforms},
+              booktitle = {{IEEE} 2nd International Forum on Research and Technologies for Society  and Industry Leveraging a better tomorrow, {RTSI} 2016, Bologna, Italy,  September 7-9, 2016},
+              pages = {1--5},
+              year = {2016},
+              doi = {10.1109/RTSI.2016.7740624},
+              publisher = {{IEEE}},
+            }
+        page: /publications/rtsi2016/rtsi2016.pdf
+      - 
+        abstract: "Microservices is an emerging paradigm for the development of distributed systems that, originating from Service-Oriented Architecture, focuses on the small dimension, the loose coupling, and the dynamic topology of services. Microservices are particularly appropriate for the development of distributed systems in the Cloud. However, their dynamic nature calls for suitable techniques for their automatic deployment. In this paper we address this problem and we propose JRO (Jolie Redeployment Optimiser), a tool for the automatic and optimised deployment of microservices written in the Jolie language. The tool uses Zephyrus, a state of the art tool that automatically generates a fully detailed Service-Oriented Architecture configuration starting from a partial and abstract description of the target application."
+        bibitem: |
+            @inproceedings{GGGMM16,
+              author = {Gabbrielli, Maurizio and Giallorenzo, Saverio and Guidi, Claudio and Mauro, Jacopo and Montesi, Fabrizio},
+              title = {Self-Reconfiguring Microservices},
+              booktitle = {Theory and Practice of Formal Methods - Essays Dedicated to Frank  de Boer on the Occasion of His 60th Birthday},
+              pages = {194--210},
+              year = {2016},
+              doi = {10.1007/978-3-319-30734-3\_14},
+              publisher = {Springer}
+            }
+        page: /publications/self-reconfiguring/self-reconfiguring.pdf
+    
+  - year: 2015
+    papers: 
+      - 
+        abstract: |
+            Programming distributed applications free from communication deadlocks and races is complex. Preserving these properties when applications are updated at runtime is even harder.
+            We present DIOC, a language for programming distributed applications that are free from deadlocks and races by construction. A DIOC program describes a whole distributed application as a unique entity (choreography). DIOC allows the programmer to specify which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each site, in a lower-level language called DPOC. We formalise both DIOC and DPOC semantics as labelled transition systems and prove the correctness of the compilation as a trace equivalence result. As corollaries, DPOC applications are free from communication deadlocks and races, even in presence of runtime updates.
+        bibitem: |
+            @inproceedings{PGGLM15a,
+              author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+              title = {Dynamic Choreographies - Safe Runtime Updates of Distributed Applications},
+              booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},
+              pages = {67--82},
+              year = {2015},
+              crossref = {DBLP:conf/coordination/2015},
+              doi = {10.1007/978-3-319-19282-6_5},
+              publisher = {Springer}
+            }
+        page: /publications/dioc/dioc.pdf
+        additional_material:
+          - description: Technical Report
+            url: /publications/dioc/dioc_tr.pdf
+      - 
+        abstract: "We illustrate our approach to develop and verify distributed, adaptive software systems. The cornerstone of our framework is the use of choreography languages, which allow us to obtain correctness by construction. Workflow Patterns are also used as abstract tools to design real systems, while techniques based on abstract interpretation and on dynamic verification are integrated in our framework to reduce the complexity of verification.\n"
+        bibitem: |
+            @article{PGGLM15a,
+              author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+              title = {Developing correct, distributed, adaptive software},
+              journal = {Sci. Comput. Program.},
+              volume = {97},
+              pages = {41--46},
+              year = {2015},
+              doi = {10.1016/j.scico.2013.11.019},
+            }
+        page: /publications/scp2014/scp2014.pdf
+    
+  - year: 2014
+    papers: 
+      - 
+        abstract: "We present AIOCJ, a framework for programming distributed adaptive applications. Applications are programmed using AIOC, a choreographic language suited for expressing patterns of interaction from a global point of view. AIOC allows the programmer to specify which parts of the application can be adapted. Adaptation takes place at runtime by means of rules, which can change during the execution to tackle possibly unforeseen adaptation needs. AIOCJ relies on a solid theory that ensures applications to be deadlock-free by construction also after adaptation. We describe the architecture of AIOCJ, the design of the AIOC language, and an empirical validation of the framework."
+        bibitem: |
+            @inproceedings{PGLMG14,
+              author    = {Mila {Dalla Preda} and
+                          Saverio Giallorenzo and
+                          Ivan Lanese and
+                          Jacopo Mauro and
+                          Maurizio Gabbrielli},
+              title     = {{AIOCJ:} {A} Choreographic Framework for Safe Adaptive Distributed
+                          Applications},
+              booktitle = {Software Language Engineering - 7th International Conference, {SLE}
+                          2014, V{\"{a}}ster{\aa}s, Sweden, September 15-16, 2014. Proceedings},
+              pages     = {161--170},
+              year      = {2014},
+              publisher  = {Springer},
+              doi       = {10.1007/978-3-319-11245-9\_9}
+            }
+        page: /publications/aiocj/aiocj.pdf
+        additional_material:
+          - description: Website of the AIOCJ framework
+            url: http://www.cs.unibo.it/projects/jolie/aiocj.html
+      - 
+        abstract: "In Service-Oriented Architectures (SOA), services are composed by coordinating their communications into a flow of interactions. Coloured Petri nets (CPN) offer a formal yet easy tool for modelling interactions in SOAs, however mapping abstract SOAs into executable ones requires a non-trivial and time-costly analysis. Here, we propose a methodology that maps CPN-modelled SOAs into Jolie SOAs (our tar- get language), exploiting a collection of recurring control-flow patterns, called Workflow Patterns, as composable blocks of the translation. We validate our approach with a realistic use case. In addition, we pragmatically asses the expressiveness of Jolie wrt the considered WPs."
+        bibitem: |
+            @inproceedings{GGM14,
+              author    = {Maurizio Gabbrielli and
+                          Saverio Giallorenzo and
+                          Fabrizio Montesi},
+              title     = {Service-Oriented Architectures: From Design to Production Exploiting
+                          Workflow Patterns},
+              booktitle = {Distributed Computing and Artificial Intelligence, 11th International
+                          Conference, {DCAI} 2014, Salamanca, Spain, June 4-6, 2014},
+              pages     = {131--139},
+              year      = {2014},
+              publisher = {Springer},
+              doi       = {10.1007/978-3-319-07593-8\_17}
+            }
+        page: /publications/eSOAs/eSOAs.pdf
+        additional_material:
+          - description: Technical Report
+            url: /publications/eSOAs/eSOAs_tr.pdf
+      - 
+        abstract: "Application Programming Interfaces (APIs) are a standard feature of any application that exposes its functionalities to external invokers. APIs can be composed thus obtaining new programs with new functionalities. However API composition easily becomes a frustrating and time-costly task that hinders API reuse. The issue derives from technology-dependent features of API composition such as the need of extensive documentation, protocol integration, security issues, etc.. In this paper we introduce the perspective of the API-as-a-Service (APIaaS) layer as tool to ease the development and deployment of applications based on API composition, abstracting communication protocols and message formats. We elicit the desirable features of such a layer and provide a proof-of-concept prototype implemented using a service-oriented language."
+        bibitem: |
+            @inproceedings{DBLP:conf/closer/GuidiGG14,
+              author    = {Claudio Guidi and
+                          Saverio Giallorenzo and
+                          Maurizio Gabbrielli},
+              title     = {Towards a Composition-based APIaaS Layer},
+              booktitle = {{CLOSER} 2014 - Proceedings of the 4th International Conference on
+                          Cloud Computing and Services Science, Barcelona, Spain, April 3-5,
+                          2014},
+              pages     = {425--432},
+              year      = {2014},
+              publisher = {SciTePress},
+              doi       = {10.5220/0004948004250432}
+            }
+        page: /publications/APIaaS/APIaaS.pdf
+    
+  - year: 2012
+    papers: 
+      - 
+        abstract: |-
+            The main contribution of this master thesis work is the description, verification, and demonstration of the realisability in the Jolie language of Control-Flow and Resources Workflow Patterns — defined by the Workflow Patterns Initiative (WPI). The thesis is divided into four chapters. 
+            
+            The first chapter presents a general description of the programming paradigm behind the Jolie language, Service-Oriented Computing, and its main context of application, Business Process Automation (BPA). The presentation is mainly focussed on the principles of Service-Oriented Architectures (SOA) and ultimately describes the main methods concerning service composition — orchestration and choreography. The last section of the chapter considers SOC in a strictly industrial perspective, highlighting its strategic features.
+            
+            The second chapter focuses on the description of Jolie. This chapter is not intended as a comprehensive description of the features in the language but rather gives an overview of the theoretical concepts, data structures, operators, and constructs of Jolie, used to demonstrate the realisability of the considered Workflow Patterns.
+            
+            The third chapter contains the actual realisation of the considered Workflow Patterns in Jolie. Each pattern is first reported and explained in terms of Coloured Petri Nets, realised as a Jolie program (or architecture of programs), reporting the rationale behind the realisation.
+            
+            The fourth chapter summarises the results from this thesis work, showing a comparison between Jolie and other BPA languages, as reported by WPI. The chapter also contains a discussion on future work: the completion of this study with an analysis on the remaining patterns from the WPI and their impact on the evolution of the Jolie language.
+        bibitem: |
+            @mastersthesis{giallorenzo2012,
+              title        = {Workflow Patterns for Service-Oriented Computing in Jolie},
+              author       = {Giallorenzo, Saverio},
+              school       = {Universit{\`a} degli studi di Bologna},
+              month        = {7},
+              year         = {2012}
+            }
+        page: /publications/masterthesis/Giallorenzo_Saverio_-_Workflow_Patterns_for_Service_Oriented_Computing_in_JOLIE.pdf

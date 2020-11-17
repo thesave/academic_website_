@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jolie at MAMbo
-permalink: /publications/MAMbo/
+permalink: /publications/seminars/MAMbo/
 ---
 
 On March 16th 2014 the <a href="http://www.cse.unibo.it/en">Department of
