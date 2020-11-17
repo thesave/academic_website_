@@ -9,272 +9,57 @@ permalink: /publications/
     font-weight: 600 !important;
     color: #3c3c3c !important;
   }
+  .bib, .abs {
+    cursor: pointer;
+  }
 </style>
 <div class="mt-5"></div>
 
+{% for year in site.data.papers %}
 <div class="pub-year">
-<span>2020</span>
+<span>{{ year.year }}</span>
 
-  <div>
-    
-  <div>
-  <a class="paper" href="icsoc2020"></a>
-  Giuseppe de Palma, Saverio Giallorenzo, Jacopo Mauro, Gianluigi Zavattaro: 
-  <span class="paper-title">Allocation Priority Policies for Serverless Function-execution Scheduling Optimisation</span>. 
-  International Conference on Service-Oriented Computing (ICSOC). Springer, Cham, 2020.
+<script>
+function toggle( entry, _class ){
+  $( entry ).parent().find( _class ).toggleClass( "d-none" );
+}
+</script>
+
+{% for paper in year.papers %}
+
+<div>
+  <a class="paper" href="{{ paper.page }}"></a>
+  <span class="bib" onclick="toggle( this, '.bibitem' );"></span>
+  <span class="abs" onclick="toggle( this, '.abstract' );"><i class="fas fa-align-left"></i></span>
+  {% if paper.additional_material %}<span class="abs" onclick="toggle( this, '.additional_material' );"><i class="fas fa-plus"></i></span>{% endif %}
+  {{ paper.bibitem | bibTitle }}
+  {% if paper.to_appear %}To appear in: {{ paper.to_appear }}.{% endif %}
+  {% if paper.notes %}<em>{{ paper.notes }}</em>.{% endif %}
+  <div class="abstract d-none border p-2">
+  <strong>Abstract</strong>{{ paper.abstract | markdownify }}
   </div>
-    
-  <div>
-  <a class="paper" href="mse2020"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/books/sp/20/BravettiGMTZ20"></a>
-  Mario Bravetti, Saverio Giallorenzo, Jacopo Mauro, Iacopo Talevi, Gianluigi Zavattaro: 
-  <span class="paper-title">A Formal Approach to Microservice Architecture Deployment</span>. 
-  Microservices Science and Engineering, Springer
+  <div class="bibitem d-none border p-2">
+  <code><pre class="pt-3">{{ paper.bibitem }}</pre></code>
   </div>
-
-</div>
-</div>
-
-<div class="pub-year">
-<span>2019</span>
-
-  <div>
-    
-  <div>
-  <a class="paper" href="guess-who"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/conf/birthday/GabbrielliGLM19"></a>
-  Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, Jacopo Mauro: 
-  <span class="paper-title">Guess Who's Coming: Runtime Inclusion of Participants in Choreographies</span>. 
-  The Art of Modelling Computational Systems 2019, Springer
+  {% if paper.additional_material %}
+  <div class="additional_material d-none border">
+    <strong>Additional Material:</strong>
+    <ul>
+      {% for item in paper.additional_material %}
+        <li><a href="{{ item.url }}">{{ item.description }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
-
-  <div>
-  <a class="paper" href="scc2019"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/conf/IEEEscc/GiallorenzoMSZ19"></a>
-  Saverio Giallorenzo, Fabrizio Montesi, Larisa Safina, and Stefano Pio Zingaro: 
-  <span class="paper-title">Ephemeral Data Handling in Microservices</span>. 
-  IEEE International Conference On Services Computing (SCC) 2019, IEEE
-  </div>
-
-  <div>
-  <a class="paper" href="coordination2019"></a>
-  <a class="bib" target="_blank" href="https://dblp.org/rec/bibtex/conf/coordination/GabbrielliGLMPZ19"></a>
-  Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, Fabrizio Montesi, Marco Peressotti, and Stefano Pio Zingaro: 
-  <span class="paper-title">No more, no less - A formal model for serverless computing</span>. 
-  International Conference on Coordination Models and Languages (COORDINATION) 2019, Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="lnbip2019"></a>
-  Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, and Stefano Pio Zingaro: 
-  <span class="paper-title">Linguistic Abstractions for Interoperability of IoT Platforms</span>. 
-  Lecture Notes in Business Information Processing (LNBIP) (2019).
-  </div>
-
-
-  <div>
-  <a class="paper" href="fase2019"></a>
-  <a class="bib" target="_blank" href="https://dblp.org/rec/bibtex/conf/fase/BravettiGMTZ19"></a>
-  Mario Bravetti, Saverio Giallorenzo, Jacopo Mauro, Iacopo Talevi, and Gianluigi Zavattaro: 
-  <span class="paper-title">Optimal and Automated Deployment for Microservices</span>. 
-  Fundamental Approaches to Software Engineering (FASE) 2019, Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="hicss2019_cp"></a>
-  <a class="bib" target="_blank" href="https://dblp.org/rec/bibtex/conf/hicss/LiuCCCGG19"></a>
-  Tong Liu, Franco Callegati, Walter Cerroni, Chiara Contoli, Maurizio Gabbrielli, Saverio Giallorenzo: 
-  <span class="paper-title">Constraint programming for flexible Service Function Chaining deployment</span>. 
-  Hawaii International Conference on System Sciences (HICSS) 2019, IEEE Computer Society. 
-  <em>Best Paper Nomination</em>
-  </div>
-
-  <div>
-  <a class="paper" href="hicss2019_sec"></a>
-  <a class="bib" target="_blank" href="https://dblp.org/rec/bibtex/conf/hicss/CallegatiGGMP19"></a>
-  Franco Callegati, Maurizio Gabbrielli, Saverio Giallorenzo, Andrea Melis, Marco Prandini: 
-  <span class="paper-title">Federated Platooning: Insider Threats and Mitigations</span>. 
-  Hawaii International Conference on System Sciences (HICSS) 2019, IEEE Computer Society.
-  </div>
-
-</div>
-</div>
-
-
-<div class="pub-year">
-<span>2018</span>
-
- <div>
-
-  <div>
-  <a class="paper" href="coopis2018"></a>
-  <a class="bib" target="_blank" href="https://dblp.org/rec/bibtex/conf/otm/GiallorenzoLR18"></a>
-  Saverio Giallorenzo, Ivan Lanese, and Daniel Russo: 
-  <span class="paper-title">ChIP: a Choreographic Integration Process</span>. 
-  International Conference On Cooperative Information Systems (CoopIS) 2018, Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="forte2018"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/conf/forte/GiallorenzoMG18"></a>
-  Saverio Giallorenzo, Fabrizio Montesi, and Maurizio Gabbrielli: 
-  <span class="paper-title">Applied Choreographies</span>. 
-  International Conference Formal Techniques for Distributed Objects, Components, and Systems (FORTE), DisCoTec 2018, LNCS.
-  </div>
-
-  <div>
-  <a class="paper" href="cs2018"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/journals/compsec/CallegatiGMP18"></a>
-  Franco Callegati, Saverio Giallorenzo, Andrea Melis, and Marco Prandini: 
-  <span class="paper-title">Cloud-of-Things meets Mobility-as-a-Service: An insider threat perspective</span>. 
-  Computer & Security, Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="hicss2018"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/conf/hicss/GabbrielliGLZ18"></a>
-  Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, and Stefano Pio Zingaro: 
-  <span class="paper-title">A Language-based Approach for Interoperability of IoT Platforms</span>. 
-  Hawaii International Conference on System Sciences (HICSS) 2018, IEEE Computer Society 2018.
-  </div>
-
-</div>
-</div>
-
-<div class="pub-year">
-<span>2017</span>
-
-  <div>
-  <a class="paper" href="itsc2017"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/conf/itsc/CallegatiGGMP17"></a>
-  Franco Callegati, Maurizio Gabbrielli, Saverio Giallorenzo, Andrea Melis, and Marco Prandini: 
-  <span class="paper-title">Smart Mobility for All - A Global Federated Market for Mobility-as-a-Service Operators</span>. 
-  International Conference on Intelligent Transportation Systems (IEEE ITS) 2017, IEEE.
-  </div>
-
-  <div>
-  <a class="paper" href="betty2017"></a>
-  <a class="bib" target="_blank" href="http://cs.unibo.it/~sgiallor/publications/betty2017/bib.html"></a>
-  Saverio Giallorenzo, Ivan Lanese, Jacopo Mauro, and Maurizio Gabbrielli: 
-  <span class="paper-title">Programming Adaptive Microservice Applications: An AIOCJ Tutorial</span>. 
-  Behavioural Types: from Theory to Tools, River Publishers.
-  </div>
-
-  <div>
-  <a class="paper" href="lmcs2017"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/journals/corr/PredaGGLM16"></a>
-  Mila Dalla Preda, Saverio Giallorenzo, Maurizio Gabbrielli, Ivan Lanese, Jacopo Mauro: 
-  <span class="paper-title">Dynamic Choreographies: Theory and Implementation</span>.
-  Logical Methods in Computer Science (LMCS) (2017).
-  </div>
-
-  <div>
-  <a class="paper" href="hicss2017"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/hicss/MelisPGC17"></a>
-  Franco Callegati, Saverio Giallorenzo, Andrea Melis, and Marco Prandini: 
-  <span class="paper-title">Insider Threats in Emerging Mobility-as-a-Service Scenarios</span>.
-  Hawaii International Conference on System Sciences (HICSS) 2017, IEEE Computer Society 2017.
-  </div>
-
-  <div>
-  <a class="paper" href="msytt"></a>
-  <a class="bib" target="_blank" href="https://dblp.uni-trier.de/rec/bibtex/books/sp/17/DragoniGLMMMS17"></a>
-  Nicola Dragoni, Saverio Giallorenzo, Alberto Lluch Lafuente, Manuel Mazzara, Fabrizio Montesi, Ruslan Mustafin, Larisa Safina:
-  <span class="paper-title">Microservices: yesterday, today, and tomorrow</span>.
-  Present And Ulterior Software Engineering, (PAUSE) Springer.
-  </div>
+  {% endif %}
 
 </div>
 
-<div class="pub-year">
-<span>2016</span>
-
-  <div>
-  <a class="paper" href="rtsi2016"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/rtsi/CallegatiGMP16"></a>
-  Franco Callegati, Saverio Giallorenzo, Andrea Melis, and Marco Prandini: 
-  <span class="paper-title">Data Security Issues in MaaS-enabling Platforms</span>.
-  Research and Technologies for Society and Industry (RTSI) (2016), IEEE Xplore.</div>
-
-  <div>
-  <a class="paper" href="phdthesis"></a>
-  <a class="bib" target="_blank" href="/publications/phdthesis/bib.html"></a>
-  Saverio Giallorenzo: 
-  <span class="paper-title">Real-World Choreographies</span>.
-  PhD Thesis, University of Bologna, 2016. </div>
-
-  <div>
-  <a class="paper" href="self-reconfiguring"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/birthday/GabbrielliGGMM16"></a>
-  Maurizio Gabbrielli, Saverio Giallorenzo, Claudio Guidi, Jacopo Mauro, and Fabrizio Montesi: 
-  <span class="paper-title">Self-Reconfiguring Microservices.</span>.
-  Theory and Practice of Formal Methods 2016, Springer.
-  </div>
+{% endfor %}
 
 </div>
+{% endfor %}
 
-<div class="pub-year">
-  <span>2015</span>
 
-  <div>
-  <a class="paper" href="dioc"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/coordination/PredaGGLM15"></a>
-  Mila Dalla Preda, Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, and Jacopo Mauro: 
-  <span class="paper-title">Dynamic Choreographies - Safe Runtime Updates of Distributed Applications</span>.
-  International Conference on Coordination Models and Languages (COORDINATION) 2015, Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="scp2014"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/journals/scp/PredaGGLM15"></a>
-  Mila Dalla Preda, Maurizio Gabbrielli, Saverio Giallorenzo, Ivan Lanese, and Jacopo Mauro: 
-  <span class="paper-title">Developing correct, distributed, adaptive software</span>.
-  Science of Computer Programming (SCP) (2015), Elsevier.
-  </div>
-
-  </div>
-
-<div class="pub-year"> 
-  <span>2014</span>
-
-  <div>
-  <a class="paper" href="aiocj"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/sle/PredaGLMG14"></a>
-  Mila Dalla Preda, Saverio Giallorenzo, Ivan Lanese, Jacopo Mauro, and Maurizio Gabbrielli: 
-  <span class="paper-title">AIOCJ: A Choreographic Framework for Safe Adaptive Distributed Applications</span>.
-  International Conference on Software Language Engineering (SLE) (2014), Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="eSOAs"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/dcai/GabbrielliGM14"></a>
-  Maurizio Gabbrielli, Saverio Giallorenzo, and Fabrizio Montesi:
-  <span class="paper-title">Service-Oriented Architectures: From Design to Production Exploiting Workflow Patterns</span>.
-  Conference on Distributed Computing and Artificial Intelligence (DCAI) (2014), Springer.
-  </div>
-
-  <div>
-  <a class="paper" href="APIaaS"></a>
-  <a class="bib" target="_blank" href="http://dblp.uni-trier.de/rec/bibtex/conf/closer/GuidiGG14"></a>
-  Claudio Guidi, Saverio Giallorenzo, and Maurizio Gabbrielli:
-  <span class="paper-title">Towards a Composition-based APIaaS Layer</span>.
-  International Conference on Cloud Computing and Services Science (CLOSER) (2014), SciTePress.
-  </div>
-
-</div>
-
-<div class="pub-year"> 
-  <span>2012</span>
-  
-  <div>
-  <a class="paper" href="masterthesis"></a>
-  <a class="bib" target="_blank" href="/publications/masterthesis/bib.html"></a>
-  Saverio Giallorenzo: 
-  <span class="paper-title">Workflow Patterns For Service Oriented Computing In Jolie</span>.
-  Master Thesis, University of Bologna, 2012.
-  </div>
-
-</div>
 
 ## Seminars and other activities
 <div style="height:1em;"></div>
