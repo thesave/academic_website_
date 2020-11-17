@@ -7,24 +7,24 @@ permalink: /ideas/
 Here you can find a list (indexed below) of ideas/topics we (the Jolie team)
 had for master/bachelor thesis and research projects.
 
-- [A Comprehensive Testing Framework](#a-comprehensive-testing-framework) <span class="label label-primary">Work in Progress</span> 
-- [Pluggable Monitors](#pluggable-monitorsloggers) <span class="label label-primary">Work in Progress</span> 
+- [A Comprehensive Testing Framework](#a-comprehensive-testing-framework) <span class="badge badge-primary">Work in Progress</span> 
+- [Pluggable Monitors](#pluggable-monitorsloggers) <span class="badge badge-primary">Work in Progress</span> 
 - [Namespaces in Jolie](#namespaces-in-jolie)
-- [Jolie Code Formatter](#jolie-code-formatter) <span class="label label-primary">Work in Progress</span> 
-- [Automatic Microservice Architecture Deployment](#automatic-microservice-architecture-deployment) <span class="label label-primary">Work in Progress</span> 
-- [Jolie Package Manager](#jolie-package-manager) <span class="label label-primary">Work in Progress</span>
+- [Jolie Code Formatter](#jolie-code-formatter) <span class="badge badge-primary">Work in Progress</span> 
+- [Automatic Microservice Architecture Deployment](#automatic-microservice-architecture-deployment) <span class="badge badge-primary">Work in Progress</span> 
+- [Jolie Package Manager](#jolie-package-manager) <span class="badge badge-primary">Work in Progress</span>
 - [SODEP+ for lightweight and precise flow tracking](#sodep-for-better-logging-and-flow-tracking)
 - [Jolie.js](#joliejs)
-- [Liquid APIs](#liquid-apis) <span class="label label-primary">Work in Progress</span>
+- [Liquid APIs](#liquid-apis) <span class="badge badge-primary">Work in Progress</span>
 - [Microservices and Reactive Programming](#microservices-and-reactive-programming)
-- [Microservices, Containers, and Big Data](#jolie-microservices-containers-and-big-data) <span class="label label-primary">Work in Progress</span>
+- [Microservices, Containers, and Big Data](#jolie-microservices-containers-and-big-data) <span class="badge badge-primary">Work in Progress</span>
 - [Choreographies, Containers, and Big Data](#choreographies-container-and-big-data)
-- [AWS Lambdas/Serverless, Jolie, and Choreographies](#aws-lambda-jolie-and-choreographies) <span class="label label-primary">Work in Progress</span>
-- [Hybrid Microservice-Serverless Architecture](#hybrid-microservice-serverless-architecture) <span class="label label-default">New</span>
+- [AWS Lambdas/Serverless, Jolie, and Choreographies](#aws-lambda-jolie-and-choreographies) <span class="badge badge-primary">Work in Progress</span>
+- [Hybrid Microservice-Serverless Architecture](#hybrid-microservice-serverless-architecture) <span class="badge badge-warning">New</span>
 - [Moving Jolie processes between Cloud Nodes](#a-step-forward-moving-jolie-processes-between-nodes) 
 - [Strong Mobility in Choreographies](#a-further-step-forward-strong-mobility-in-choreographies)
 
-Above, the label <span class="label label-primary">Work in Progress</span> means some students are undertaking or already did some work on the subject. This means that new proponents may be asked to coordinate their work. 
+Above, the label <span class="badge badge-primary">Work in Progress</span> means some students are undertaking or already did some work on the subject. This means that new proponents may be asked to coordinate their work. 
 
 If you are interested in working on these or other topics regarding **Jolie**
 and **Choreographies** feel free to contact me at saverio.giallorenzo[at]gmail.com.

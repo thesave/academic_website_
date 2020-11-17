@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+<div class="text-justify hyphenate" markdown="1">
 <img src="/assets/images/save.gif" style="margin-bottom: 0px; float: left; width: 74px; margin-right:10px" class="thumbnail" alt="">
 I am an assistant professor ([RTDa](https://en.wikipedia.org/wiki/List_of_academic_ranks#Italy)) at the [Department of Computer Science and Engineering](https://disi.unibo.it), Università di Bologna, member of the [Focus team, INRIA](https://team.inria.fr/focus/), and former member of the [Concurrency and Logic](https://concurrency.sdu.dk), the [DISI Jolie Lab](http://cs.unibo.it/projects/jolie), and the [SPACES](http://cs.unibo.it/projects/spaces/) research groups.
 
@@ -32,3 +33,4 @@ Some fields I am also interested in are (randomly ordered):
 </div>
 
 I also love boardgames, cooking, reading (books and comics), and playing piano and the drum.
+</div>

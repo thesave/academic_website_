@@ -8,15 +8,18 @@ layout: default
   {% include head.html %}
 
   <body>
-    <wrapper class="d-flex flex-column">
+    <wrapper class="container-fluid d-flex flex-column">
+     
       {% include header.html %}
       
       <div class="container-flex d-flex" style="flex:1;">
-      {{ content }}
+        {{ content }}
       </div>
 
       {% include footer.html %}
     </wrapper>
+  </body>
+
   </body>
 
 </html>
