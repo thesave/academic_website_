@@ -4,12 +4,14 @@ title: Publications
 permalink: /publications/
 ---
 
+{% include icons.html %}
+
 <style>
   .paper-title {
     font-weight: 600 !important;
     color: #3c3c3c !important;
   }
-  .bib, .abs {
+  .icon {
     cursor: pointer;
   }
 </style>
@@ -27,11 +29,11 @@ function toggle( entry, _class ){
 
 {% for paper in year.papers %}
 
-<div>
-  <a class="paper" href="{{ paper.page }}"></a>
-  <span class="bib" onclick="toggle( this, '.bibitem' );"></span>
-  <span class="abs" onclick="toggle( this, '.abstract' );"><i class="fas fa-align-left"></i></span>
-  {% if paper.additional_material %}<span class="abs" onclick="toggle( this, '.additional_material' );"><i class="fas fa-plus"></i></span>{% endif %}
+<div class="py-1">
+  <a href="{{ paper.page }}">{{ pdf_icon }}</a>
+  <span class="icon" onclick="toggle( this, '.bibitem' );">{{ bib_icon }}</span>
+  <span class="icon" onclick="toggle( this, '.abstract' );">{{ abstract_icon }}</span>
+  {% if paper.additional_material %}<span class="icon" onclick="toggle( this, '.additional_material' );">{{ plus_icon }}</span>{% endif %}
   {{ paper.bibitem | bibTitle }}
   {% if paper.to_appear %}To appear in: {{ paper.to_appear }}.{% endif %}
   {% if paper.notes %}<em>{{ paper.notes }}</em>.{% endif %}

@@ -5,7 +5,7 @@
 <span>2020</span>
 
   <div>
-    <a href="/publications/seminars/MC2020.pdf" class="paper"></a> 
+    <a href="/publications/seminars/MC2020.pdf">{{ pdf_icon }}</a> 
     Presentation of the APP language at the <a href="https://conf-micro.services/2020/">International Conference on Microservices 2020</a>.
   </div>
 
@@ -15,16 +15,15 @@
 <span>2018</span>
 
   <div>
-    <a href="/publications/seminars/MADE18_MSC.pdf" class="paper"></a>
+    <a href="/publications/seminars/MADE18_MSC.pdf">{{ pdf_icon }}</a>
     Presentation of the Microservices Community at the <a href="https://sites.google.com/view/made18/">MADE18 workshop</a>.
   </div>
 
   <div>
-  <a class="demo" ></a>
   Hands-on demo called "<em>Microservices all the way down</em>"
   on programming Microservices with Jolie.
-  The introductory <a href="https://github.com/thesave/made18_hands_on" class="paper" ></a>
-  slides and the <a href="https://github.com/thesave/made18_hands_on" class="source"></a>
+  The introductory <a href="https://github.com/thesave/made18_hands_on">{{ pdf_icon }}</a>
+  slides and the <a href="https://github.com/thesave/made18_hands_on">{{ source_icon }}</a>
   demo code are available at <a href="https://github.com/thesave/made18_hands_on">
   a dedicated Github repository</a>.
   Demo presented the <a href="https://sites.google.com/view/made18/">MADE18 workshop</a>, co-located with XP2018. 
@@ -32,7 +31,7 @@
   makes any communicating endpoint a microservices: whether it is a web server, an architectural component or even an IoT 
   device.
   <span style="cursor:pointer" data-target="#MADE18abstract" onclick="toggleTriangle( $( this ) );" >
-  <span class="fas fa-lg fa-angle-right"></span>
+  <span class="fa-lg fas fa-angle-right"></span>
   Click here to see the full abstract.
   </span></p>
 
@@ -54,7 +53,6 @@
 
 
   <div>
-    <a class="demo" ></a>
     Booth installation at <a href="https://twitter.com/hashtag/imolaProgramma?src=hash">ImolaProgramma</a>.
 People got to know, first hand, how Jolie (through JIoT) evolves the programming of Internet of Things systems, mixing together and interacting with Arduino, Raspberry Pi, gauges, and PLCs (through CoAP, MQTT, and MODBUS).
   </div>
@@ -65,17 +63,17 @@ People got to know, first hand, how Jolie (through JIoT) evolves the programming
 <span>2017</span>
 
   <div>
-  <a class="paper" href="seminars/MS2017.pdf"></a>
-  Short Paper and the Demo <a href="seminars/MS2017.ioc"><span class="source"></span>Choreographic Code</a>  (<a href="http://www.cs.unibo.it/projects/jolie/aiocj.html">AIOCJ</a>) and <a href="seminars/MS2017_services.zip"><span class="source"></span>Jolie Services</a> on <span>Choreographies for Microservices</span> at Microservices 2017, Odense, Denmark
+  <a href="seminars/MS2017.pdf">{{ pdf_icon }}</a>
+  Short Paper and the Demo <a href="seminars/MS2017.ioc">{{ source_icon }} Choreographic Code</a>  (<a href="http://www.cs.unibo.it/projects/jolie/aiocj.html">AIOCJ</a>) and <a href="seminars/MS2017_services.zip">{{ source_icon }} Jolie Services</a> on <span>Choreographies for Microservices</span> at Microservices 2017, Odense, Denmark
   </div>
 
   <div>
-  <a class="paper" href="seminars/Eval_Inria_2017_Long.pdf"></a>
+  <a href="seminars/Eval_Inria_2017_Long.pdf">{{ pdf_icon }}</a>
   Seminar on <span>Microservices and Choreographies | The SMAll Project</span> for the Workshop on Programming in Sophia-Antipolis, France
   </div>
 
   <div>
-  <a class="paper" href="seminars/Eval_Inria_2017_Short.pdf"></a> 
+  <a href="seminars/Eval_Inria_2017_Short.pdf">{{ pdf_icon }}</a> 
   Presentation on <span>FoCUS, on Implementations of Service-Oriented Computing</span> for the Evaluation des Projects in Sophia-Antipolis, France  
   </div>
 
@@ -85,24 +83,24 @@ People got to know, first hand, how Jolie (through JIoT) evolves the programming
 <span>2016</span>
 
   <div>
-  <a class="paper" href="seminars/MoM2016.pdf"></a>
+  <a href="seminars/MoM2016.pdf">{{ pdf_icon }}</a>
   Presentation on <span> Microservices, scenarios of the near and far future</span> at Meeting on Microservices 2016 at Monrif S.p.A., Bologna, Italy
   </div>
 
   <div>
-  <a class="paper" href="seminars/SF2016.pdf"></a> 
+  <a href="seminars/SF2016.pdf">{{ pdf_icon }}</a> 
   No-slide presentation on <span> A Hands-on Introduction to Jolie</span> for the September Meeting of San Francisco Microservices Meetup at WeaveWorks Inc., San Francisco, CA, U.S. | 
-  <a href="seminars/SF2016.zip"><span class="source"></span>Code</a>
+  <a href="seminars/SF2016.zip">{{ source_icon }}Code</a>
   </div>
 
   <div>
-  <a class="paper" href="seminars/Workshop_Sophia_2016.pdf"></a>
+  <a href="seminars/Workshop_Sophia_2016.pdf">{{ pdf_icon }}</a>
   Seminar on <span>Jolie Microservices and Choreographies</span> for the Workshop on Programming Languages in Sophia-Antipolis, France 
   </div>
 
   <div>
-  <a class="paper" href="seminars/BISS2016.pdf"></a>
-  Seminar on <span>A Gentle Introduction to Jolie</span> at the Bertinoro International Spring School 2016, Bertinoro, Italy | <a href="seminars/BISS2016.zip"><span class="source"></span>Code</a>
+  <a href="seminars/BISS2016.pdf">{{ pdf_icon }}</a>
+  Seminar on <span>A Gentle Introduction to Jolie</span> at the Bertinoro International Spring School 2016, Bertinoro, Italy | <a href="seminars/BISS2016.zip">{{ source_icon }}Code</a>
   </div>
 
 </div>
@@ -111,7 +109,7 @@ People got to know, first hand, how Jolie (through JIoT) evolves the programming
 <span>2015</span>
 
   <div>
-  <a class="paper" href="seminars/Workshop_Sophia_2015.pdf"></a>
+  <a href="seminars/Workshop_Sophia_2015.pdf">{{ pdf_icon }}</a>
   Seminar on <span>Jolie Microservices and Choreographies for the Web</span> for the Workshop on Web/Reactive Programming in Sophia-Antipolis, France
   </div>
 
@@ -121,7 +119,7 @@ People got to know, first hand, how Jolie (through JIoT) evolves the programming
 <span>2014</span>
 
   <div>
-  <a class="video" href="seminars/MAMbo"></a>
+  <a href="seminars/MAMbo">{{ video_icon }}</a>
   Video installed at the <a href="http://www.mambo-bologna.org/en/">Museum of Modern Art in Bologna (MAMbo)</a> for the
   <a href="http://www.mambo-bologna.org/eventi/evento-1350/">DISI public exhibit</a>.
 In the video I briefly present Jolie: its history, its purposes, industrial uses, and its community.
