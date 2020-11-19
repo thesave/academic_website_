@@ -50,7 +50,7 @@
       - 
         abstract: "The Internet of Things (IoT) advocates for multi-layered platforms—from edge devices to Cloud nodes—where each layer adopts its own communication standards (media and data formats). While this freedom is optimal for in-layer communication, it puzzles cross-layer integration due to incompatibilities among standards. Also enforcing a unique communication stack within the same IoT platform is not a solution, as it leads to the current phenomenon of “IoT islands”, where disparate platforms hardly interact with each other. In this paper we tackle the problem of IoT cross-layer and cross-platform integration fol- lowing a language-based approach. We build on the Jolie programming language, which provides uniform linguistic abstractions to exploit heterogeneous communication stacks, allowing the programmer to specify in a declarative way the desired stack, and to easily change it, even at runtime. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. We integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. We report our experience on a case study on Cloud-based home automation, and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions.\n"
         bibitem: |
-            @incollection{gabbrielli2019linguistic,
+            @incollection{GGLZ19,
               title={Linguistic Abstractions for Interoperability of IoT Platforms},
               author={Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Zingaro, Stefano Pio},
               booktitle={Towards Integrated Web, Mobile, and IoT Technology},
@@ -349,7 +349,7 @@
       - 
         abstract: "We illustrate our approach to develop and verify distributed, adaptive software systems. The cornerstone of our framework is the use of choreography languages, which allow us to obtain correctness by construction. Workflow Patterns are also used as abstract tools to design real systems, while techniques based on abstract interpretation and on dynamic verification are integrated in our framework to reduce the complexity of verification.\n"
         bibitem: |
-            @article{PGGLM15a,
+            @article{PGGLM15b,
               author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
               title = {Developing correct, distributed, adaptive software},
               journal = {Sci. Comput. Program.},
@@ -407,7 +407,7 @@
       - 
         abstract: "Application Programming Interfaces (APIs) are a standard feature of any application that exposes its functionalities to external invokers. APIs can be composed thus obtaining new programs with new functionalities. However API composition easily becomes a frustrating and time-costly task that hinders API reuse. The issue derives from technology-dependent features of API composition such as the need of extensive documentation, protocol integration, security issues, etc.. In this paper we introduce the perspective of the API-as-a-Service (APIaaS) layer as tool to ease the development and deployment of applications based on API composition, abstracting communication protocols and message formats. We elicit the desirable features of such a layer and provide a proof-of-concept prototype implemented using a service-oriented language."
         bibitem: |
-            @inproceedings{DBLP:conf/closer/GuidiGG14,
+            @inproceedings{GGG14,
               author    = {Claudio Guidi and
                           Saverio Giallorenzo and
                           Maurizio Gabbrielli},
@@ -436,7 +436,7 @@
             
             The fourth chapter summarises the results from this thesis work, showing a comparison between Jolie and other BPA languages, as reported by WPI. The chapter also contains a discussion on future work: the completion of this study with an analysis on the remaining patterns from the WPI and their impact on the evolution of the Jolie language.
         bibitem: |
-            @mastersthesis{giallorenzo2012,
+            @mastersthesis{G12,
               title        = {Workflow Patterns for Service-Oriented Computing in Jolie},
               author       = {Giallorenzo, Saverio},
               school       = {Universit{\`a} degli studi di Bologna},
