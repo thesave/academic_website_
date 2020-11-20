@@ -9,6 +9,56 @@ h1, h2, h3, h4, h5 {
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
 }
 
+@font-face {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+  src: url(../webfonts/text/SF-Pro-Text-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url(../webfonts/text/SF-Pro-Text-Bold.woff) format("woff");
+  font-weight: 600;
+}
+@font-face {
+	font-family: "SF Pro Text";
+  src: url(../webfonts/text/SF-Pro-Text-RegularItalic.woff) format("woff");
+  font-style: italic;
+}
+@font-face {
+	font-family: "SF Pro Text";
+  src: url(../webfonts/text/SF-Pro-Text-BoldItalic.woff) format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+  src: url(../webfonts/text/SF-Pro-Display-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(../webfonts/text/SF-Pro-Display-Bold.woff) format("woff");
+  font-weight: 600;
+}
+@font-face {
+	font-family: "SF Pro Display";
+  src: url(../webfonts/text/SF-Pro-Display-RegularItalic.woff) format("woff");
+  font-style: italic;
+}
+@font-face {
+	font-family: "SF Pro Display";
+  src: url(../webfonts/text/SF-Pro-Display-BoldItalic.woff) format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
 body {
   font-size: 18px !important;
   line-height: 1.47059 !important;
