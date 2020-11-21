@@ -77,6 +77,25 @@
 				setTimeout( () => lazyload, 250 );
 			} else {
 				$.getScript( "/assets/js/bootstrap.min.js" );
+				
+				const members = [ 
+					{ type: "Regular", weight: 400, style: "normal" },
+					{ type: "Bold", weight: 600, style: "normal" },
+					{ type: "Italic", weight: 400, style: "italic" },
+					{ type: "BoldItalic", weight: 600, style: "italic" },
+				];
+				$.each( members, ( i, m ) => {
+					new FontFace( 
+						"SF Pro Text",
+						'url( /assets/webfonts/text/SF-Pro-Text-' + m.type + '.woff)',
+						{ style: m.style, weight: m.weight }
+					).load().then( ( f ) => { document.fonts.add( f ); } );
+					new FontFace( 
+						"SF Pro Display",
+						'url( /assets/webfonts/text/SF-Pro-Display-' + m.type + '.woff)',
+						{ style: m.style, weight: m.weight }
+					).load().then( ( f ) => { document.fonts.add( f ); } );
+				});
 				$.getScript( "/assets/js/hypher/jquery.hypher.js", () => {
 					$.getScript( "/assets/js/hypher/en-gb.js", () => {
 						$( ".hyphenate *" ).hyphenate( "en-gb" );
