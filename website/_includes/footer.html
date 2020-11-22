@@ -73,11 +73,16 @@
 	
 	<script>
 		function lazyload(){
+			// wait for jquery
 			if( typeof $ === "undefined" ){
-				setTimeout( () => lazyload, 250 );
+				setTimeout( lazyload, 250 );
 			} else {
-				$.getScript( "/assets/js/bootstrap.min.js" );
-				
+				// let jquery use the cache
+				$.ajaxSetup({ cache: true });
+				const promises = new Array();
+				// load bootstrap
+				promises.push( $.getScript( "/assets/js/bootstrap.min.js" ) );
+				// load fonts
 				const members = [ 
 					{ type: "Regular", weight: 400, style: "normal" },
 					{ type: "Bold", weight: 600, style: "normal" },
@@ -85,22 +90,32 @@
 					{ type: "BoldItalic", weight: 600, style: "italic" },
 				];
 				$.each( members, ( i, m ) => {
-					new FontFace( 
+					const p1 = new FontFace( 
 						"SF Pro Text",
 						'url( /assets/webfonts/text/SF-Pro-Text-' + m.type + '.woff)',
 						{ style: m.style, weight: m.weight }
-					).load().then( ( f ) => { document.fonts.add( f ); } );
-					new FontFace( 
+					).load();
+					promises.push( p1 );
+					p1.then( ( f ) => { document.fonts.add( f ); } );
+					const p2 = new FontFace(
 						"SF Pro Display",
 						'url( /assets/webfonts/text/SF-Pro-Display-' + m.type + '.woff)',
 						{ style: m.style, weight: m.weight }
-					).load().then( ( f ) => { document.fonts.add( f ); } );
+					).load();
+					promises.push( p2 );
+					p2.then( ( f ) => { document.fonts.add( f ); } );
 				});
-				$.getScript( "/assets/js/hypher/jquery.hypher.js", () => {
+				// hyphenate
+				const p3 = $.getScript( "/assets/js/hypher/jquery.hypher.js", () => {
 					$.getScript( "/assets/js/hypher/en-gb.js", () => {
 						$( ".hyphenate *" ).hyphenate( "en-gb" );
 					} );
 				} );
+				promises.push( p3 );
+				// restore the default value
+				Promise.all( promises ).then( () => {
+					$.ajaxSetup({ cache: false });
+				});
 			}
 		}
 		lazyload();
