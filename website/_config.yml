@@ -2,6 +2,8 @@ email: saverio.giallorenzo[at]gmail.com
 baseurl: "https://saveriogiallorenzo.com"
 url: "https://saveriogiallorenzo.com"
 github_username: thesave
+exclude: 
+  - link-checker-crawled-pages.pstore
 
 markdown: kramdown
 

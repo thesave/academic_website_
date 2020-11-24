@@ -12,7 +12,7 @@ title: Activities
 
 <div markdown="1">
 
--  <img style="height:24px;" src="/assets/images/activities/ascd_project.png"> *Co-Principal Investigator*: [Assessment on the Status of CyberSecurity in Denmark (ASCD)](https://ascd.dk/) funded by the [Danish Centre for CyberSecurity](https://fe-ddis.dk/cfcs/Pages/cfcs.aspx)
+-  <img style="height:24px;" src="/assets/images/activities/ascd_project.png"> *Co-Principal Investigator*: [Assessment on the Status of CyberSecurity in Denmark (ASCD)](https://ascd.dk/) funded by the [Danish Centre for CyberSecurity](https://cfcs.dk/en/)
 -  <img style="height:24px;" src="/assets/images/activities/amp2020.svg"> *Program co-Chair*: [Agility with Microservices Programming 2020](https://amp.fe.up.pt/2020/) workshop co-located with [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2020/)
 -  <img style="height:30px;" src="/assets/images/activities/microservices_conf.svg"> *PC Member*: [International Conference on Microservices 2020](https://conf-micro.services/2020/)
 -  <img style="height:24px;" src="/assets/images/activities/bopl_logo.png"> *Financial Chair/Fundraiser*: [BOlogna Federated Conference on Programming Languages 2020](https://bopl.cs.unibo.it/)
@@ -40,7 +40,7 @@ within the <a href="https://ec.europa.eu/research/mariecurieactions/actions/indi
 
 -  <img style="height:24px;" src="/assets/images/activities/cybersecurity_days.png"> *Local Organiser*: [CyberSecurity Days 2019](https://cyberdays2019.sdu.dk/) 
 
--  <img style="height:30px;" src="/assets/images/activities/microservices_conf.svg"> *Program co-Chair*: [International Conference on Microservices (Microservices) 2019](http://conf-micro.services/2019) 
+-  <img style="height:30px;" src="/assets/images/activities/microservices_conf.svg"> *Program co-Chair*: [International Conference on Microservices (Microservices) 2019](https://conf-micro.services/2019) 
 
 - <img style="height:30px;" src="/assets/images/activities/midos_logo.png"> *Publicity Chair* and *PC member* of the [MiDOS track](https://midos2019.sdu.dk/) at ACM SAC
 
@@ -48,8 +48,8 @@ within the <a href="https://ec.europa.eu/research/mariecurieactions/actions/indi
   - [Service-Oriented Computing and Applications (SOCA)](https://www.cs.ccu.edu.tw/~conference/soca2019/)
 
 - *Referee*:
-  - [Hawaii International Conference on System Sciences (HICSS)](http://hicss.hawaii.edu/program-hicss52/) 
-  - [Logic-Based Program Synthesis and Transformation (LOPSTR)](http://www.cs.unibo.it/projects/lopstr19/)
+  - [Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/program-hicss52/) 
+  - [Logic-Based Program Synthesis and Transformation (LOPSTR)](https://www.cs.unibo.it/projects/lopstr19/)
   - [Elsevier, Travel Behaviour and Society (TBS)](https://www.journals.elsevier.com/travel-behaviour-and-society) 
   - [Elsevier, Journal of Logical and Algebraic Methods in Programming (JLAMP)](https://www.journals.elsevier.com/journal-of-logical-and-algebraic-methods-in-programming) 
   - [Elsevier, Information and Software Technology (IST)](https://www.journals.elsevier.com/information-and-software-technology) 
@@ -63,15 +63,15 @@ within the <a href="https://ec.europa.eu/research/mariecurieactions/actions/indi
 
 <div markdown="1">
 
-- *Participated to the creation of [Concurrency and Logic](http://concurrency.sdu.dk)* research group
+- *Participated to the creation of [Concurrency and Logic](https://concurrency.sdu.dk)* research group
 - *Organisation and PC Member*:
   - [Microservices: Agile and DevOps Experiences 2018 (MADE18)](https://sites.google.com/view/made18) workshop co-located with [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2018/)
 - *PC Member*: 
-  - [Service-Oriented Architectures and Programming (SOAP) @ ACM Symposium On Applied Computing (SAC)](http://sac-soap.sdu.dk/soap2018/) 
-  - [Service-Oriented Computing and Applications (SOCA)](http://conferences.computer.org/soca/)
+  - [Service-Oriented Architectures and Programming (SOAP) @ ACM Symposium On Applied Computing (SAC)](https://sac-soap.sdu.dk/soap2018/) 
+  - [Service-Oriented Computing and Applications (SOCA)](https://conferences.computer.org/soca/)
     
 - *Referee*:
-  - [Hawaii International Conference on System Sciences (HICSS)](http://hicss.hawaii.edu/program-hicss51/)
+  - [Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/program-hicss51/)
   - [IEEE Software](https://www.computer.org/software-magazine/2017/02/10/microservices-call-for-papers/)
 
 </div>
@@ -82,40 +82,40 @@ within the <a href="https://ec.europa.eu/research/mariecurieactions/actions/indi
 ### Past Activities
 
 - **2017**
-  - <img style="height:24px;" src="../assets/images/activities/microservices_logo.png"> *Participated to the creation of [Microservices Community](http://microservices.sdu.dk)*
-  - <img style="width:24px;" src="../assets/images/activities/spaces.png"> *Participated to the creation of the [SPACES](http://cs.unibo.it/projects/spaces2017) research group*
+  - <img style="height:24px;" src="../assets/images/activities/microservices_logo.png"> *Participated to the creation of [Microservices Community](https://microservices.sdu.dk)*
+  - <img style="width:24px;" src="../assets/images/activities/spaces.png"> *Participated to the creation of the [SPACES](https://cs.unibo.it/projects/spaces2017) research group*
   - *Organisation and PC Member*: 
-    - [International Conference on Microservices (Microservices)](http://conf-micro.services/)
+    - [International Conference on Microservices (Microservices)](https://conf-micro.services/)
   - *PC Member*: 
-    - [Service-Oriented Architectures and Programming (SOAP) @ ACM Symposium On Applied Computing (SAC)](http://sac-soap.sdu.dk/soap2017/) 
-    - [Springer, Present and Ulterior Software Engineering (PAUSE) Book](http://se.inf.ethz.ch/old/people/meyer/publications/)
+    - [Service-Oriented Architectures and Programming (SOAP) @ ACM Symposium On Applied Computing (SAC)](https://sac-soap.sdu.dk/soap2017/) 
+    - [Springer, Present and Ulterior Software Engineering (PAUSE) Book](https://se.inf.ethz.ch/old/people/meyer/publications/)
   - *Referee*: 
-    - [Behavioural Types for Reliable Large-Scale Software Systems (BETTY) Book](http://www.behavioural-types.eu/) 
-    - [A.P. Ershov Informatics Conference (PSI)](http://psi.nsc.ru/) 
-    - [Coordination And Self-Adaptiveness Of Software Applications (FOCLASA)](http://foclasa.lcc.uma.es/)
+    - [Behavioural Types for Reliable Large-Scale Software Systems (BETTY) Book](https://www.behavioural-types.eu/) 
+    - [A.P. Ershov Informatics Conference (PSI)](https://psi.nsc.ru/) 
+    - [Coordination And Self-Adaptiveness Of Software Applications (FOCLASA)](https://foclasa.lcc.uma.es/)
 
 - **2016**
-  - *Local Organisation*: [Reversible Computation (RC)](http://www.reversible-computation.org/2016/)
+  - *Local Organisation*: [Reversible Computation (RC)](https://www.reversible-computation.org/2016/)
   - *PC Member*: 
-    - [Service-Oriented Computing and Applications (SOCA)](http://conferences.computer.org/soca/2016/iot_st.htm)
+    - [Service-Oriented Computing and Applications (SOCA)](https://conferences.computer.org/soca/2016/iot_st.htm)
   - *Referee*: 
-    - [Programming Language Approaches to Concurrency- and Communication-cEntric Software (PLACES)](http://places16.by.di.fc.ul.pt/)
+    - [Programming Language Approaches to Concurrency- and Communication-cEntric Software (PLACES)](https://places16.by.di.fc.ul.pt/)
 
 - **2015**
   - *Referee*: 
-    - [Fundamentals of Software Engineering (FSEN)](http://fsen.ir/2015/)
-    - [Formal Engineering Methods (ICFEM)](http://icfem2015.lri.fr/)
-    - [Service-Oriented Architectures and Programming (SOAP) @ ACM Symposium On Applied Computing (SAC)](http://www.sigapp.org/sac/sac2015/)
+    - [Fundamentals of Software Engineering (FSEN)](https://fsen.ir/2015/)
+    - [Formal Engineering Methods (ICFEM)](https://icfem2015.lri.fr/)
+    - [Service-Oriented Architectures and Programming (SOAP) @ ACM Symposium On Applied Computing (SAC)](https://www.sigapp.org/sac/sac2015/)
     - [Elsevier, Science of Computer Programming (SCICO)](https://ees.elsevier.com/scico/default.asp)
 
 - **2014**
-  - *Participated into the creation of the [DISI Jolie Lab](http://cs.unibo.it/projects/jolie) research group*
+  - *Participated into the creation of the [DISI Jolie Lab](https://cs.unibo.it/projects/jolie) research group*
 
   - *Organisation*:
-    - [Formal Aspects of Component Software (FACS)](http://facs2014.cs.unibo.it/)
+    - [Formal Aspects of Component Software (FACS)](https://facs2014.cs.unibo.it/)
 
   - *Referee*:
     - [Conference on Coordination Models and Languages (COORDINATION)](https://www.discotec2014.tu-berlin.de/)
-    - [Software Technologies (ICSOFT)](http://www.icsoft.org/?y=2014)
+    - [Software Technologies (ICSOFT)](https://www.icsoft.org/?y=2014)
 
 </div>
