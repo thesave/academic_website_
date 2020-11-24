@@ -95,7 +95,7 @@
 </div>
 
 <div class="card collapse" style="box-shadow: 0 0 black;" id="na_course_exam">
-<div class="card-body" markdown="1">
+<div class="card-body" markdown="1" class="hyphenate text-justify p-4" >
 
 <span class="alert-warning"><u>The exam consists in a project that applies the knowledge on network analysis acquired during the course</u></span>.
 <span class="alert-warning"><u>The exam's hand-in consists in a report of 5-6 pages (8-9 pages for projects with more students)</u></span>, detailing the context, the problem/motivation, the data, the measures, and the results of the project that the students performed.

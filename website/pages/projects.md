@@ -14,7 +14,7 @@ Utilities:
 
 {% for project in site.data.projects %}
 <h1 id="{{ project.title | downcase }}">{{ project.title }}</h1>
-<div class="project hyphenate">
+<div class="project hyphenate text-justify">
 <img class="float-right" src="{{ project.image.url }}" style="margin:20px; width:{{ project.image.width }};">
 
 {{ project.description | markdownify }}

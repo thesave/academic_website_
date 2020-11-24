@@ -31,6 +31,8 @@ and **Choreographies** feel free to contact me at saverio.giallorenzo[at]gmail.c
 
 ---
 
+<div class="hyphenate text-justify" markdown="1">
+
 ### A Comprehensive Testing Framework
 
 The distributed nature of microservice architectures makes difficult to create and automatise test suites for a given architecture. Nonetheless, testing is a fundamental part of the validation phase in [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) processes. It's telling that one of the main tool developed by Netflix to assess the reliability and performance of their system is a testing framework called the [Simian Army](https://github.com/Netflix/SimianArmy). 
