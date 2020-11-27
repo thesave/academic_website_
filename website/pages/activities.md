@@ -12,6 +12,7 @@ title: Activities
 
 <div markdown="1">
 
+-  <img style="height:24px;" src="/assets/images/activities/dip2020.png"> *Local co-Organiser*: [Recent Developments of the Design and Implementation of Programming Languages 2020 (Maurizio Gabbrielli's festschrift in occasion of his 60th birthday)](https://fervent-bassi-8c5709.netlify.app/)
 -  <img style="height:24px;" src="/assets/images/activities/ascd_project.png"> *Co-Principal Investigator*: [Assessment on the Status of CyberSecurity in Denmark (ASCD)](https://ascd.dk/) funded by the [Danish Centre for CyberSecurity](https://cfcs.dk/en/)
 -  <img style="height:24px;" src="/assets/images/activities/amp2020.svg"> *Program co-Chair*: [Agility with Microservices Programming 2020](https://amp.fe.up.pt/2020/) workshop co-located with [International Conference on Agile Software Development (XP)](https://www.agilealliance.org/xp2020/)
 -  <img style="height:30px;" src="/assets/images/activities/microservices_conf.svg"> *PC Member*: [International Conference on Microservices 2020](https://conf-micro.services/2020/)
