@@ -2,6 +2,25 @@
   - year: 2020
     papers:
       - bibitem: |
+          @inproceedings{GLMSZ20,
+            author =	{Saverio Giallorenzo and Ivan Lanese and Fabrizio Montesi and Davide Sangiorgi and Stefano Pio Zingaro},
+            title =	{{The Servers of Serverless Computing: A Formal Revisitation of Functions as a Service}},
+            booktitle =	{Recent Developments in the Design and Implementation of Programming Languages},
+            pages =	{5:1--5:21},
+            series =	{OpenAccess Series in Informatics (OASIcs)},
+            ISBN =	{978-3-95977-171-9},
+            ISSN =	{2190-6807},
+            year =	{2020},
+            volume =	{86},
+            editor =	{Frank S. de Boer and Jacopo Mauro},
+            publisher =	{Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik},
+            address =	{Dagstuhl, Germany},
+            doi =		{10.4230/OASIcs.Gabbrielli.5}
+          }
+        abstract: |
+          Serverless computing is a paradigm for programming cloud applications in terms of stateless functions, executed and scaled in proportion to inbound requests. Here, we revisit SKC, a calculus capturing the essential features of serverless programming. By exploring the design space of the language, we refined the integration between the fundamental features of the two calculi that inspire SKC: the λ- and the π-calculus. That investigation led us to a revised syntax and semantics, which support an increase in the expressiveness of the language. In particular, now function names are first-class citizens and can be passed around. To illustrate the new features, we present step-by-step examples and two non-trivial use cases from artificial intelligence, which model, respectively, a perceptron and an image tagging system into compositions of serverless functions. We also illustrate how SKC supports reasoning on serverless implementations, i.e., the underlying network of communicating, concurrent, and mobile processes which execute serverless functions in the cloud. To that aim, we show an encoding from SKC to the asynchronous π-calculus and prove it correct in terms of an operational correspondence.
+        page: /publications/dip2020/dip2020.pdf
+      - bibitem: |
           @incollection{BGMTZ20,
             author    = {Mario Bravetti and
                         Saverio Giallorenzo and
