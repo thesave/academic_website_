@@ -1,3 +1,4 @@
 _site
 .sass-cache
 website/link-checker-crawled-pages.pstore
+.DS_Store
