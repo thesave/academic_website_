@@ -5,8 +5,12 @@
 <span>2020</span>
 
   <div>
+    <a href="/publications/seminars/DIP2020.pdf">{{ pdf_icon }}</a> 
+    Presentation of the paper "The Servers of Serverless Computing — A Formal Revisitation of Functions as Services" at <a href="https://fervent-bassi-8c5709.netlify.app/">Recent Developments of the Design and Implementation of Programming Languages 2020</a>.
+  </div>
+  <div>
     <a href="/publications/seminars/MC2020.pdf">{{ pdf_icon }}</a> 
-    Presentation of the APP language at the <a href="https://conf-micro.services/2020/">International Conference on Microservices 2020</a>.
+    Presentation of the abstract "Allocation Priority Policies for Reliable Serverless Scheduling Performance" at the <a href="https://conf-micro.services/2020/">International Conference on Microservices 2020</a>.
   </div>
 
 </div>
