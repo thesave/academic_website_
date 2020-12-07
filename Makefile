@@ -10,6 +10,9 @@ cd:
 	cd website
 
 install:
+	$(BUNDLE) config silence_root_warning 1
+	$(BUNDLE) config disable_platform_warnings true
+	$(BUNDLE) config set path 'vendor/bundle'
 	$(BUNDLE) install
 
 update:
