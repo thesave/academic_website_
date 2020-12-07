@@ -128,5 +128,9 @@ People got to know, first hand, how Jolie (through JIoT) evolves the programming
   <a href="http://www.mambo-bologna.org/eventi/evento-1350/">DISI public exhibit</a>.
 In the video I briefly present Jolie: its history, its purposes, industrial uses, and its community.
   </div>
+    <div>
+    <a href="/publications/seminars/SLE2014.pdf">{{ pdf_icon }}</a> 
+    Presentation of the paper "AIOCJ: A Choreographic Framework for Safe Adaptive Distributed Application" at the <a href="https://www.sleconf.org/2014/">International Conference on Software Language Engineering 2014</a>.
+  </div>
 
 </div>
