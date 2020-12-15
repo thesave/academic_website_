@@ -1,5 +1,24 @@
 ---
   - year: 2020
+    editors: 
+      - bibitem: |
+          @proceedings{microservices2019,
+            editor    = {{Lu{\'{\i}}s} {Cruz{-}Filipe} and
+                        Saverio Giallorenzo and
+                        Fabrizio Montesi and
+                        Marco Peressotti and
+                        Florian Rademacher and
+                        Sabine Sachweh},
+            title     = {Joint Post-proceedings of the First and Second International Conference
+                        on Microservices, Microservices 2017/2019, October 23-27, 2017, Odense,
+                        Denmark / February 19-21, 2019, Dortmund, Germany},
+            series    = {OASIcs},
+            volume    = {78},
+            publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+            year      = {2020},
+            isbn      = {978-3-95977-137-5},
+            timestamp = {Wed, 16 Sep 2020 17:05:37 +0200}
+          }
     papers:
       - bibitem: |
           @inproceedings{GLMSZ20,
@@ -17,6 +36,7 @@
             address =	{Dagstuhl, Germany},
             doi =		{10.4230/OASIcs.Gabbrielli.5}
           }
+        type: conference
         abstract: |
           Serverless computing is a paradigm for programming cloud applications in terms of stateless functions, executed and scaled in proportion to inbound requests. Here, we revisit SKC, a calculus capturing the essential features of serverless programming. By exploring the design space of the language, we refined the integration between the fundamental features of the two calculi that inspire SKC: the λ- and the π-calculus. That investigation led us to a revised syntax and semantics, which support an increase in the expressiveness of the language. In particular, now function names are first-class citizens and can be passed around. To illustrate the new features, we present step-by-step examples and two non-trivial use cases from artificial intelligence, which model, respectively, a perceptron and an image tagging system into compositions of serverless functions. We also illustrate how SKC supports reasoning on serverless implementations, i.e., the underlying network of communicating, concurrent, and mobile processes which execute serverless functions in the cloud. To that aim, we show an encoding from SKC to the asynchronous π-calculus and prove it correct in terms of an operational correspondence.
         page: /publications/dip2020/dip2020.pdf
@@ -34,12 +54,13 @@
             doi       = {10.1007/978-3-030-31646-4\_8},
             publisher = {Springer}
           }
+        type: other
         abstract: |
           Following previous work on the automated deployment of component-based applications, we present a formal model specifically tailored for reasoning on the deployment of microservice architectures. The first result that we present is a formal proof of decidability of the problem of synthesizing optimal deployment plans for microservice architectures, a problem which was proved to be undecidable for generic component-based applications. Then, given that such proof translates the deployment problem into a constraint satisfaction problem, we present the implementation of a tool that, by exploiting state-of-the-art constraint solvers, can be used to actually synthesize optimal deployment plans. We evaluate the applicability of our tool on a realistic microservice architecture taken from the literature.
         page: /publications/mse2020/mse2020.pdf
       - bibitem: |
           @inproceedings{DBLP:conf/icsoc/PalmaGMZ20,
-            author    = {Giuseppe De Palma and
+            author    = {Giuseppe {De Palma} and
                         Saverio Giallorenzo and
                         Jacopo Mauro and
                         Gianluigi Zavattaro},
@@ -58,12 +79,10 @@
             pages     = {416--430},
             publisher = {Springer},
             year      = {2020},
-            url       = {https://doi.org/10.1007/978-3-030-65310-1\_29},
             doi       = {10.1007/978-3-030-65310-1\_29},
-            timestamp = {Mon, 14 Dec 2020 12:06:32 +0100},
-            biburl    = {https://dblp.org/rec/conf/icsoc/PalmaGMZ20.bib},
-            bibsource = {dblp computer science bibliography, https://dblp.org}
+            timestamp = {Mon, 14 Dec 2020 12:06:32 +0100}
           }
+        type: conference
         abstract: |
           Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. In this paper, we address the problem of function-execution scheduling, i.e., how to schedule the execution of Serverless functions to optimise their performance against some user-defined goals. We introduce a declarative language of Allocation Priority Policies (APP) to specify policies that inform the scheduling of function execution. We present a prototypical implementation of APP as an extension of Apache OpenWhisk and we validate it by i) implementing a use case combining IoT, Edge, and Cloud Computing and ii) by comparing its performance to an alternative implementation that uses vanilla OpenWhisk.
         page: /publications/icsoc2020/icsoc2020.pdf
@@ -87,8 +106,9 @@
               publisher = {Springer}
             }
         page: /publications/fase2019/fase2019.pdf
+        type: conference
       - 
-        abstract: "The Internet of Things (IoT) advocates for multi-layered platforms—from edge devices to Cloud nodes—where each layer adopts its own communication standards (media and data formats). While this freedom is optimal for in-layer communication, it puzzles cross-layer integration due to incompatibilities among standards. Also enforcing a unique communication stack within the same IoT platform is not a solution, as it leads to the current phenomenon of “IoT islands”, where disparate platforms hardly interact with each other. In this paper we tackle the problem of IoT cross-layer and cross-platform integration fol- lowing a language-based approach. We build on the Jolie programming language, which provides uniform linguistic abstractions to exploit heterogeneous communication stacks, allowing the programmer to specify in a declarative way the desired stack, and to easily change it, even at runtime. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. We integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. We report our experience on a case study on Cloud-based home automation, and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions.\n"
+        abstract: "The Internet of Things (IoT) advocates for multi-layered platforms—from edge devices to Cloud nodes—where each layer adopts its own communication standards (media and data formats). While this freedom is optimal for in-layer communication, it puzzles cross-layer integration due to incompatibilities among standards. Also enforcing a unique communication stack within the same IoT platform is not a solution, as it leads to the current phenomenon of “IoT islands”, where disparate platforms hardly interact with each other. In this paper we tackle the problem of IoT cross-layer and cross-platform integration following a language-based approach. We build on the Jolie programming language, which provides uniform linguistic abstractions to exploit heterogeneous communication stacks, allowing the programmer to specify in a declarative way the desired stack, and to easily change it, even at runtime. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. We integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. We report our experience on a case study on Cloud-based home automation, and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions.\n"
         bibitem: |
             @incollection{GGLZ19,
               title={Linguistic Abstractions for Interoperability of IoT Platforms},
@@ -98,6 +118,7 @@
               year={2019},
               publisher={Springer}
             }
+        type: other
         page: /publications/lnbip2019/lnbip2019.pdf
       - 
         abstract: "Platoon formation is a freight organization system where a group of vehicles follows a predefined trajectory maintaining a desired spatial pattern. Benefits of platooning include fuel savings, reduction of carbon dioxide emissions, and efficient allocation of road capacity. While traditionally platooning has been an exclusive option limited to specific geographical areas managed by a single operator, recent technological developments and EU initiatives are directed at the creation of an international, federated market for platooning, i.e., a consortium of platoon operators that collaborate and coordinate their users to constitute freights covering international routes. In this paper, we look at federated platooning from an insiders’ perspective. In our development, first we outline the basic elements of platooning and federation of platooning operators. Then, we provide a comprehensive analysis to identify the possible insiders (employees, users, operators, and federated members) and the threats they pose. Finally, we propose two layered, composable technical solutions to mitigate those threats: a) a decentralized overlay network that regulates the interactions among the stakeholders, useful to mitigate issues linked to data safety and trustworthiness and b) a dynamic federation platform, needed to monitor and interrupt deviant behaviours of federated members.\n"
@@ -111,6 +132,7 @@
               publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
             }
         page: /publications/hicss2019_sec/hicss2019_sec.pdf
+        type: conference
       - 
         abstract: "In Choreographic Programming, a choreography specifies in a single artefact the expected behaviour of all the participants in a distributed system. The choreography is used to synthesise correct-by- construction programs for each participant. In previous work, we defined Dynamic Choreographies to support the update of distributed systems at runtime. In this work, we extend Dynamic Choreographies to include new participants at runtime, capturing those use cases where the system might be updated to interact with new, unforeseen stakeholders. We formalise our extension, prove its correctness, and present an implementation in the AIOCJ choreographic framework.\n"
         bibitem: |
@@ -124,6 +146,7 @@
               publisher = {Springer}
             }
         page: /publications/guess-who/guess-who.pdf
+        type: conference
       - 
         abstract: "Serverless computing, also known as Functions-as-a-Service, is a recent paradigm aimed at simplifying the programming of cloud applications. The idea is that developers design applications in terms of functions, which are then deployed on a cloud infrastructure. The infrastructure takes care of executing the functions whenever requested by remote clients, dealing automatically with distribution and scaling with respect to inbound traffic. While vendors already support a variety of programming languages for serverless computing (e.g. Go, Java, Javascript, Python), as far as we know there is no reference model yet to formally reason on this paradigm. In this paper, we propose the first core formal programming model for serverless computing, which combines ideas from both the λ-calculus (for functions) and the π-calculus (for communication). To illustrate our proposal, we model a real-world serverless system. Thanks to our model, we capture limitations of current vendors and formalise possible amendments.\n"
         bibitem: |
@@ -139,6 +162,7 @@
               year = {2019},
               doi = {10.1007/978-3-030-22397-7\_9}
             }
+        type: conference
         page: /publications/coordination2019/coordination2019.pdf
       - 
         abstract: "Ephemeral data handling, whereby processed data do not persist, is an emerging requirement of connected IT systems, due to storage constraints (IoT) or regulatory demands (eHealth, GDPR). We present ongoing work on TQuery, a query language for ephemeral data handling in microservices.\n"
@@ -152,6 +176,7 @@
               doi = {10.1109/SCC.2019.00048},
               publisher = {{IEEE}}
             }
+        type: conference
         page: /publications/scc2019/scc2019.pdf
         additional_material:
           - description: Technical Report
@@ -168,11 +193,13 @@
               publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
             }
         page: /publications/hicss2019_cp/hicss2019_cp.pdf
+        type: conference
         notes: Best Paper Nomination
+
   - year: 2018
     papers: 
       - 
-        abstract: "Mobility-as-a-Service (MaaS) applies the everything-as-a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we revise and extend previous work where we classified the potential threats of individual operators and markets of federated MaaS providers, proposing appropriate countermeasures to mitigate the problems. In addition, we consider the emerging case of Cloud-of-Things (CoT) for mobility, i.e., networks of ubiquitous, pervasive devices that provide real-time data on objects and people. Automation and pervasiveness of CoT make an additional attack surface for insiders. In an effort to limit such phenomenon, we present an overlay networking architecture, based on gossip protocols, that lets users share information on mobility with each other. A peculiarity of the architecture is that it both constrains the quality and quantity of data obtainable by insiders, optimizing the routing of requests to involve only users that are able to answer them.\n"
+        abstract: "Mobility-as-a-Service (MaaS) applies the everything-as-a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we revise and extend previous work where we classified the potential threats of individual operators and markets of federated MaaS providers, proposing appropriate countermeasures to mitigate the problems. In addition, we consider the emerging case of Cloud-of-Things (CoT) for mobility, i.e., networks of ubiquitous, pervasive devices that provide real-time data on objects and people. Automation and pervasiveness of CoT make an additional attack surface for insiders. In an effort to limit such phenomenon, we present an overlay networking architecture, based on gossip protocols, that lets users share information on mobility with each other. A peculiarity of the architecture is that it both constrains the quality and quantity of data obtainable by insiders, optimizing the routing of requests to involve only users that are able to answer them."
         bibitem: |
             @article{CGMP18,
               author    = {Franco Callegati and
@@ -186,9 +213,11 @@
               year      = {2018},
               doi       = {10.1016/j.cose.2017.10.006}
             }
+        type: journal
         page: /publications/cs2018/cs2018.pdf
       - 
         abstract: "The Internet of Things (IoT) promotes the communication among heterogeneous entities, from small sensors to Cloud systems. However, this is realized using a wide range of communication media and data protocols, usually incompatible with each other. Thus, IoT systems tend to grow as homogeneous isolated platforms, which hardly interact. To achieve a higher degree of interoperability among disparate IoT platforms, we propose a language-based approach for communication technology integration. We build on the Jolie programming language, which allows programmers to easily make the same logic work over disparate communication stacks in a declarative, dynamic way. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. As technical result, we integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. In this paper, we report our experience and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions."
+        type: conference
         bibitem: |
             @inproceedings{GGLZ18,
               author    = {Maurizio Gabbrielli and
@@ -215,9 +244,11 @@
               publisher = {Springer},
               doi = {10.1007/978-3-030-02671-4\_2}
             }
+        type: conference
         page: /publications/coopis2018/coopis2018.pdf
       - 
-        abstract: "Choreographic Programming is a paradigm for distributed programming, where high-level “Alice and Bob” descriptions of communications (choreographies) are used to synthesise correct-by-construction programs. However, implementations of choreographic models use message routing technologies distant from their related theoretical models (e.g., CCS/π channels). This drives implementers to mediate discrepancies with the theory through undocumented, unproven adaptations, weakening the reliability of their implementations. As a solution, we propose the framework of Applied Choreographies (AC). In AC, programmers write choreographies in a language that follows the standard syntax and semantics of previous works. Then, choreographies are compiled to a real-world execution model for Service-Oriented Computing (SOC). To manage the complexity of this task, our compilation happens in three steps, respectively dealing with: implementing name-based communications using the concrete mechanism found in SOC, projecting a choreography to a set of processes, and translating processes to a distributed implementation in terms of services.\n"
+        abstract: "Choreographic Programming is a paradigm for distributed programming, where high-level “Alice and Bob” descriptions of communications (choreographies) are used to synthesise correct-by-construction programs. However, implementations of choreographic models use message routing technologies distant from their related theoretical models (e.g., CCS/π channels). This drives implementers to mediate discrepancies with the theory through undocumented, unproven adaptations, weakening the reliability of their implementations. As a solution, we propose the framework of Applied Choreographies (AC). In AC, programmers write choreographies in a language that follows the standard syntax and semantics of previous works. Then, choreographies are compiled to a real-world execution model for Service-Oriented Computing (SOC). To manage the complexity of this task, our compilation happens in three steps, respectively dealing with: implementing name-based communications using the concrete mechanism found in SOC, projecting a choreography to a set of processes, and translating processes to a distributed implementation in terms of services."
+        type: conference
         bibitem: |
             @inproceedings{GMG18,
               author = {Giallorenzo, Saverio and Montesi, Fabrizio and Gabbrielli, Maurizio},
@@ -233,6 +264,7 @@
         additional_material: 
           - description: Technical Report
             url: /publications/AC/AC_tr.pdf
+ 
   - year: 2017
     papers: 
       - 
@@ -247,6 +279,7 @@
               year = {2017},
               doi = {10.23638/LMCS-13(2:1)2017},
             }
+        type: journal
         page: /publications/lmcs2017/lmcs2017.pdf
       - 
         abstract: |
@@ -269,6 +302,7 @@
               year      = {2017},
               doi       = {10.1109/ITSC.2017.8317701}
             }
+        type: conference
         page: /publications/itsc2017/itsc2017.pdf
       - 
         abstract: "Mobility as a Service (MaaS) applies the everything-as- a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we follow a tiered structure — from individual operators to markets of federated MaaS providers — to classify the potential threats of each tier and propose the appropriate countermeasures, in an effort to mitigate the problems.\n"
@@ -285,6 +319,7 @@
               year      = {2017},
               publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)}
             }
+        type: conference
         page: /publications/hicss2017/hicss2017.pdf
       - 
         abstract: "The microservice architecture is a style inspired by service-oriented computing that has recently started gaining popularity. Before presenting the current state-of-the-art in the field, this chapter reviews the history of software architecture, the reasons that led to the diffusion of objects and services first, and microservices later. Finally, open problems and future challenges are introduced. This survey addresses mostly newcomers to the discipline and offers an academic viewpoint on the topic. In addition, practical aspects are investigated and solutions proposed."
@@ -304,6 +339,7 @@
               doi       = {10.1007/978-3-319-67425-4\_12},
               publisher = {Springer},
             }
+        type: other
         page: /publications/msytt/msytt.pdf
       - 
         abstract: "This tutorial describes AIOCJ, which stands for Adaptive Interaction Oriented Choreographies in Jolie, a choreographic language for programming microservice-based applications which can be updated at runtime. The compilation of a single AIOCJ program generates the whole set of distributed microservices that compose the application. Adaptation is performed using adaptation rules. Abstractly, each rule replaces a pre-delimited part of the program with the new code contained in the rule itself. Concretely, at runtime, the application of a rule updates part of the microservices that compose the application so to match the behaviour specified by the updated program. Thanks to the properties of choreographies, the adaptive application is free from communication deadlocks and message races even after adaptation."
@@ -317,6 +353,7 @@
               year = {2017},
               publisher = {River Publishers}
             }
+        type: other
         page: /publications/betty2017/betty2017.pdf
     
   - year: 2016
@@ -337,6 +374,7 @@
               year={2016},
               school={Universit{\`a} degli studi di Bologna}
             }
+        type: other
         page: /publications/phdthesis/Saverio_Giallorenzo_-_Real-World_Choreographies.pdf
       - 
         abstract: "Mobility as a Service takes the concept of XaaS to transportation: a MaaS provider shall merge transport options from different mobility providers, seamlessly handling the whole experience of travelling, from providing information, to travel planning, and payments handling. To effectively support the creation of a market of MaaS providers, we envision the creation of ICT infrastructures based on microservices, a modern and renowned development model that fosters the creation of an ecosystem of reusable components. The flexibility of such platforms is their key advantage, yet it poses many security issues. In this paper, we look at these problems through the lens of our experience on one of such platforms, called SMAll. We classify the most relevant vulnerabilities related to data reliability, integrity, and authenticity, and we investigate directions for their mitigation.\n"
@@ -350,6 +388,7 @@
               doi = {10.1109/RTSI.2016.7740624},
               publisher = {{IEEE}},
             }
+        type: conference
         page: /publications/rtsi2016/rtsi2016.pdf
       - 
         abstract: "Microservices is an emerging paradigm for the development of distributed systems that, originating from Service-Oriented Architecture, focuses on the small dimension, the loose coupling, and the dynamic topology of services. Microservices are particularly appropriate for the development of distributed systems in the Cloud. However, their dynamic nature calls for suitable techniques for their automatic deployment. In this paper we address this problem and we propose JRO (Jolie Redeployment Optimiser), a tool for the automatic and optimised deployment of microservices written in the Jolie language. The tool uses Zephyrus, a state of the art tool that automatically generates a fully detailed Service-Oriented Architecture configuration starting from a partial and abstract description of the target application."
@@ -363,6 +402,7 @@
               doi = {10.1007/978-3-319-30734-3\_14},
               publisher = {Springer}
             }
+        type: conference
         page: /publications/self-reconfiguring/self-reconfiguring.pdf
     
   - year: 2015
@@ -382,6 +422,7 @@
               doi = {10.1007/978-3-319-19282-6_5},
               publisher = {Springer}
             }
+        type: conference
         page: /publications/dioc/dioc.pdf
         additional_material:
           - description: Technical Report
@@ -398,6 +439,7 @@
               year = {2015},
               doi = {10.1016/j.scico.2013.11.019},
             }
+        type: journal
         page: /publications/scp2014/scp2014.pdf
     
   - year: 2014
@@ -420,6 +462,7 @@
               publisher  = {Springer},
               doi       = {10.1007/978-3-319-11245-9\_9}
             }
+        type: conference
         page: /publications/aiocj/aiocj.pdf
         additional_material:
           - description: Website of the AIOCJ framework
@@ -440,6 +483,7 @@
               publisher = {Springer},
               doi       = {10.1007/978-3-319-07593-8\_17}
             }
+        type: conference
         page: /publications/eSOAs/eSOAs.pdf
         additional_material:
           - description: Technical Report
@@ -460,6 +504,7 @@
               publisher = {SciTePress},
               doi       = {10.5220/0004948004250432}
             }
+        type: conference
         page: /publications/APIaaS/APIaaS.pdf
     
   - year: 2012
@@ -475,6 +520,7 @@
             The third chapter contains the actual realisation of the considered Workflow Patterns in Jolie. Each pattern is first reported and explained in terms of Coloured Petri Nets, realised as a Jolie program (or architecture of programs), reporting the rationale behind the realisation.
             
             The fourth chapter summarises the results from this thesis work, showing a comparison between Jolie and other BPA languages, as reported by WPI. The chapter also contains a discussion on future work: the completion of this study with an analysis on the remaining patterns from the WPI and their impact on the evolution of the Jolie language.
+        type: other
         bibitem: |
             @mastersthesis{G12,
               title        = {Workflow Patterns for Service-Oriented Computing in Jolie},

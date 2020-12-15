@@ -30,7 +30,20 @@ function toggle( entry, _class ){
 {% for paper in year.papers %}
 
 <div class="py-1">
-  <a href="{{ paper.page }}">{{ pdf_icon }}</a>
+  <a href="{{ paper.page }}">{% if paper.type %}
+  {% case paper.type %}
+    {% when "conference" %}
+      {{ pdf_conference_icon }}
+    {% when "journal" %}
+      {{ pdf_journal_icon }}
+    {% when "other" %}
+      {{ pdf_other_icon }}
+    {% else %}
+      {{ pdf_icon }}
+    {% endcase %}
+  {% else %}
+    {{ pdf_icon }}
+  {% endif %}</a>
   <span class="icon" onclick="toggle( this, '.bibitem' );">{{ bib_icon }}</span>
   <span class="icon" onclick="toggle( this, '.abstract' );">{{ abstract_icon }}</span>
   {% if paper.additional_material %}<span class="icon" onclick="toggle( this, '.additional_material' );">{{ plus_icon }}</span>{% endif %}
@@ -54,6 +67,20 @@ function toggle( entry, _class ){
   </div>
   {% endif %}
 
+</div>
+
+{% endfor %}
+
+
+{% for editor in year.editors %}
+
+<div class="py-1">
+  <span class="text-muted">{{ editor_icon }}</span>
+  <span class="icon" onclick="toggle( this, '.bibitem' );">{{ bib_icon }}</span>
+  {{ editor.bibitem | bibTitle }}
+  <div class="bibitem d-none border p-2">
+  <code><pre class="pt-3">{{ editor.bibitem }}</pre></code>
+  </div>
 </div>
 
 {% endfor %}
