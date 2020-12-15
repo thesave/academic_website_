@@ -38,10 +38,31 @@
           Following previous work on the automated deployment of component-based applications, we present a formal model specifically tailored for reasoning on the deployment of microservice architectures. The first result that we present is a formal proof of decidability of the problem of synthesizing optimal deployment plans for microservice architectures, a problem which was proved to be undecidable for generic component-based applications. Then, given that such proof translates the deployment problem into a constraint satisfaction problem, we present the implementation of a tool that, by exploiting state-of-the-art constraint solvers, can be used to actually synthesize optimal deployment plans. We evaluate the applicability of our tool on a realistic microservice architecture taken from the literature.
         page: /publications/mse2020/mse2020.pdf
       - bibitem: |
-          @unpublished{PGMZ20,
-            author    = {Giuseppe {de Palma} and Saverio Giallorenzo and Jacopo Mauro and Gianluigi Zavattaro},
-            title     = {Allocation Priority Policies for Serverless Function-execution Scheduling Optimisation},
-            year      = {2020}
+          @inproceedings{DBLP:conf/icsoc/PalmaGMZ20,
+            author    = {Giuseppe De Palma and
+                        Saverio Giallorenzo and
+                        Jacopo Mauro and
+                        Gianluigi Zavattaro},
+            editor    = {Eleanna Kafeza and
+                        Boualem Benatallah and
+                        Fabio Martinelli and
+                        Hakim Hacid and
+                        Athman Bouguettaya and
+                        Hamid Motahari},
+            title     = {Allocation Priority Policies for Serverless Function-Execution Scheduling
+                        Optimisation},
+            booktitle = {Service-Oriented Computing - 18th International Conference, {ICSOC}
+                        2020, Dubai, United Arab Emirates, December 14-17, 2020, Proceedings},
+            series    = {Lecture Notes in Computer Science},
+            volume    = {12571},
+            pages     = {416--430},
+            publisher = {Springer},
+            year      = {2020},
+            url       = {https://doi.org/10.1007/978-3-030-65310-1\_29},
+            doi       = {10.1007/978-3-030-65310-1\_29},
+            timestamp = {Mon, 14 Dec 2020 12:06:32 +0100},
+            biburl    = {https://dblp.org/rec/conf/icsoc/PalmaGMZ20.bib},
+            bibsource = {dblp computer science bibliography, https://dblp.org}
           }
         abstract: |
           Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. In this paper, we address the problem of function-execution scheduling, i.e., how to schedule the execution of Serverless functions to optimise their performance against some user-defined goals. We introduce a declarative language of Allocation Priority Policies (APP) to specify policies that inform the scheduling of function execution. We present a prototypical implementation of APP as an extension of Apache OpenWhisk and we validate it by i) implementing a use case combining IoT, Edge, and Cloud Computing and ii) by comparing its performance to an alternative implementation that uses vanilla OpenWhisk.
