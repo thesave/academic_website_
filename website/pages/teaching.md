@@ -43,22 +43,24 @@ Seminar on "From Service-Oriented Computing to Microservices and Beyond" for the
 <script>
 function updateAddress( element ){
   window.location.hash = $( element ).attr( "href" );
+  return false;
 }
 function updateHash(){
   const hash = window.location.hash;
-  if( hash.length > 0 ){
+  if( $( "#nav-tab .active" ).attr( "href" ) !== hash ){
     $( hash + "-tab" ).trigger( "click" );
-  } else {
-    $( "nav :first-child" ).trigger( "click" );
   }
+  //  else {
+  //   $( "nav :first-child" ).trigger( "click" );
+  // }
 }
 function lazy_load_page(){
   if( typeof $ === "undefined" ){
     setTimeout( lazy_load_page, 250 );
   } else {
-    updateHash();
-    setTimeout( updateHash, 250 );
+    // updateHash();
     $( window ).on( 'hashchange', updateHash );
+    setTimeout( updateHash, 250 );
   }
 }
 lazy_load_page();
