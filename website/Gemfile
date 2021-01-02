@@ -38,3 +38,5 @@ gem "citeproc-ruby", "~> 1.1"
 gem "csl-styles", "~> 1.0"
 
 gem "link-checker", "~> 0.7.2"
+
+gem "webrick", "~> 1.7"
