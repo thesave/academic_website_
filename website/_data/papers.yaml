@@ -270,8 +270,8 @@
       - 
         abstract: "Programming distributed applications free from communication deadlocks and race conditions is complex. Preserving these properties when applications are updated at runtime is even harder. We present a choreographic approach for programming updatable, distributed applications. We define a choreography language, called Dynamic Interaction-Oriented Choreography (DIOC), that allows the programmer to specify, from a global viewpoint, which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each participant in a process-level language called Dynamic Process-Oriented Choreographies (DPOC). We prove that DPOC distributed applications generated from DIOC specifications are deadlock free and race free and that these properties hold also after any runtime update. We instantiate the theoretical model above into a programming framework called Adaptable Interaction-Oriented Choreographies in Jolie (AIOCJ) that comprises an integrated development environment, a compiler from an extension of DIOCs to distributed Jolie programs, and a runtime environment to support their execution."
         bibitem: |
-            @article{PGGLM17,
-              author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+            @article{DGGLM17,
+              author = {Dalla Preda, Mila and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
               title = {Dynamic Choreographies: Theory And Implementation},
               journal = {Logical Methods in Computer Science},
               volume = {13},
@@ -412,8 +412,8 @@
             Programming distributed applications free from communication deadlocks and races is complex. Preserving these properties when applications are updated at runtime is even harder.
             We present DIOC, a language for programming distributed applications that are free from deadlocks and races by construction. A DIOC program describes a whole distributed application as a unique entity (choreography). DIOC allows the programmer to specify which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each site, in a lower-level language called DPOC. We formalise both DIOC and DPOC semantics as labelled transition systems and prove the correctness of the compilation as a trace equivalence result. As corollaries, DPOC applications are free from communication deadlocks and races, even in presence of runtime updates.
         bibitem: |
-            @inproceedings{PGGLM15a,
-              author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+            @inproceedings{DGGLM15a,
+              author = {Dalla Preda, Mila and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
               title = {Dynamic Choreographies - Safe Runtime Updates of Distributed Applications},
               booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},
               pages = {67--82},
@@ -430,8 +430,8 @@
       - 
         abstract: "We illustrate our approach to develop and verify distributed, adaptive software systems. The cornerstone of our framework is the use of choreography languages, which allow us to obtain correctness by construction. Workflow Patterns are also used as abstract tools to design real systems, while techniques based on abstract interpretation and on dynamic verification are integrated in our framework to reduce the complexity of verification.\n"
         bibitem: |
-            @article{PGGLM15b,
-              author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
+            @article{DGGLM15b,
+              author = {Dalla Preda, Mila and Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Mauro, Jacopo},
               title = {Developing correct, distributed, adaptive software},
               journal = {Sci. Comput. Program.},
               volume = {97},
@@ -447,7 +447,7 @@
       - 
         abstract: "We present AIOCJ, a framework for programming distributed adaptive applications. Applications are programmed using AIOC, a choreographic language suited for expressing patterns of interaction from a global point of view. AIOC allows the programmer to specify which parts of the application can be adapted. Adaptation takes place at runtime by means of rules, which can change during the execution to tackle possibly unforeseen adaptation needs. AIOCJ relies on a solid theory that ensures applications to be deadlock-free by construction also after adaptation. We describe the architecture of AIOCJ, the design of the AIOC language, and an empirical validation of the framework."
         bibitem: |
-            @inproceedings{PGLMG14,
+            @inproceedings{DGLMG14,
               author    = {Mila {Dalla Preda} and
                           Saverio Giallorenzo and
                           Ivan Lanese and

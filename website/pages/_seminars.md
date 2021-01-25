@@ -2,8 +2,23 @@
 <div style="height:1em;"></div>
 
 <div class="pub-year">
+<span>2021</span>
+
+  <div>
+    <a href="/publications/seminars/CRIT2021_Serveless_Microservices.pdf">{{ pdf_icon }}</a> 
+    Presentation on Serverless vs Microservices Architectures presented at 
+    the webinar "<a href="https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/">Microservies-based architectures for next-gen industrial applications</a>" organised by CRIT S.r.l..
+  </div>
+
+</div>
+
+<div class="pub-year">
 <span>2020</span>
 
+  <div>
+    <a href="/publications/seminars/ICSOC2020.pdf">{{ pdf_icon }}</a> 
+    Presentation of the paper "Allocation Priority Policies for Serverless Function-execution" at <a href="http://www.icsoc.org/2020">International Conference on Service Oriented Computing (ICSOC 2020)</a>.
+  </div>
   <div>
     <a href="/publications/seminars/DIP2020.pdf">{{ pdf_icon }}</a> 
     Presentation of the paper "The Servers of Serverless Computing — A Formal Revisitation of Functions as Services" at <a href="https://fervent-bassi-8c5709.netlify.app/">Recent Developments of the Design and Implementation of Programming Languages 2020</a>.
