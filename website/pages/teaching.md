@@ -28,6 +28,7 @@ Seminar on "From Service-Oriented Computing to Microservices and Beyond" for the
 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <a class="small nav-link active" id="na-tab" data-toggle="tab" href="#na" role="tab" onclick="updateAddress( this );" aria-controls="na" aria-selected="true">Network Analysis</a>
+    <a class="small nav-link" id="asd-tab" data-toggle="tab" href="#asd" role="tab" onclick="updateAddress( this );" aria-controls="asd" aria-selected="true">Algorithms and Data Structures</a>
     <a class="small nav-link" id="atcs-tab" data-toggle="tab" href="#atcs" role="tab" onclick="updateAddress( this );" aria-controls="atcs" aria-selected="false">Adv. Topics in Concur. Systems</a>
     <a class="small nav-link" id="los-tab" data-toggle="tab" href="#los" role="tab" onclick="updateAddress( this );" aria-controls="los" aria-selected="false">Op. Systems Laboratory</a>
     <a class="small nav-link" id="geo_introcs-tab" data-toggle="tab" href="#geo_introcs" role="tab" onclick="updateAddress( this );" aria-controls="geo_introcs" aria-selected="false">Intro to CS - Geo. Sc.</a>
@@ -35,6 +36,7 @@ Seminar on "From Service-Oriented Computing to Microservices and Beyond" for the
 </nav>
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="na" role="tabpanel" aria-labelledby="na-tab">{% include_relative _teaching_na.md %}</div>
+  <div class="tab-pane fade" id="asd" role="tabpanel" aria-labelledby="asd-tab">{% include_relative _teaching_asd.md %}</div>
   <div class="tab-pane fade" id="atcs" role="tabpanel" aria-labelledby="atcs-tab">{% include_relative _teaching_atcs.md %}</div>
   <div class="tab-pane fade" id="los" role="tabpanel" aria-labelledby="los-tab">{% include_relative _teaching_los.md %}</div>
   <div class="tab-pane fade" id="geo_introcs" role="tabpanel" aria-labelledby="geo_introcs-tab">{% include_relative _teaching_introcs.md %}</div>
